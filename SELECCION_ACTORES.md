@@ -75,8 +75,8 @@ Las funciones de los siete ministerios y del CNB se complementaron con fuentes o
 
 Los archivos originales permanecen en `fuentes/`. Se utilizaron ocho trabajos distintos presentes en nueve archivos (una duplicación binaria). Las fuentes oficiales no se cuentan como trabajos estudiantiles.
 
-- **F1** · [Juárez, Saravia y Pérez](fuentes/Ecosistema%20de%20Emprendimiento%20-%20Juárez,%20Saravia,%20Pérez.pdf) · mapa.
-- **F2** · [Daniel Monroy y Javier García](fuentes/Ecosistema_Daniel_Monroy_y_Javier_García.pdf) · mapa.
+- **F1** · [Juárez, Saravia y Pérez](fuentes/Ecosistema%20de%20Emprendimiento%20-%20Juárez,%20Saravia,%20Pérez.pdf) · mapa.
+- **F2** · [Daniel Monroy y Javier García](fuentes/Ecosistema_Daniel_Monroy_y_Javier_García.pdf) · mapa.
 - **F3** · [Berni y Diego](fuentes/Ecosistema_Emprendimiento_Guatemala.pdf_Berni_Diego.pdf) · mapa.
 - **F4** · [Nuria y Diego (PPTX)](fuentes/Ecosistemas%20de%20Emprendimiento%20-%20Nuria%20y%20Diego.pptx) · mapa.
 - **F5** · [KAMP–PMMC](fuentes/KAMP-PMMC%20Lienzo%20Ecosistema%20Emprendedor.pdf) · mapa.

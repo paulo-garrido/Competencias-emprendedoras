@@ -7,17 +7,17 @@
       "id": "F1",
       "grupo": "G1",
       "nombre": "Juárez, Saravia y Pérez",
-      "archivo": "Ecosistema de Emprendimiento - Juárez, Saravia, Pérez.pdf",
+      "archivo": "Ecosistema de Emprendimiento - Juárez, Saravia, Pérez.pdf",
       "clase": "mapa",
-      "ruta": "fuentes/Ecosistema de Emprendimiento - Juárez, Saravia, Pérez.pdf"
+      "ruta": "fuentes/Ecosistema de Emprendimiento - Juárez, Saravia, Pérez.pdf"
     },
     {
       "id": "F2",
       "grupo": "G2",
       "nombre": "Daniel Monroy y Javier García",
-      "archivo": "Ecosistema_Daniel_Monroy_y_Javier_García.pdf",
+      "archivo": "Ecosistema_Daniel_Monroy_y_Javier_García.pdf",
       "clase": "mapa",
-      "ruta": "fuentes/Ecosistema_Daniel_Monroy_y_Javier_García.pdf"
+      "ruta": "fuentes/Ecosistema_Daniel_Monroy_y_Javier_García.pdf"
     },
     {
       "id": "F3",
@@ -17282,7 +17282,7 @@
   ],
   "inventario_fuentes": [
     {
-      "archivo": "Ecosistema de Emprendimiento - Juárez, Saravia, Pérez.pdf",
+      "archivo": "Ecosistema de Emprendimiento - Juárez, Saravia, Pérez.pdf",
       "sha256": "8e2b4b4d48c99776f0dfe56807d4b92eb74fc2e3be7172af5fd602ca1e6c9344",
       "duplicado_de": null
     },
@@ -17297,7 +17297,7 @@
       "duplicado_de": null
     },
     {
-      "archivo": "Ecosistema_Daniel_Monroy_y_Javier_García.pdf",
+      "archivo": "Ecosistema_Daniel_Monroy_y_Javier_García.pdf",
       "sha256": "37b61cffc8c7b0e6fe65517ea6ea63e083c456eb36abaedf87d1e30fba29442f",
       "duplicado_de": "Ecosistema de-2026-09-08-225359.pdf"
     },
