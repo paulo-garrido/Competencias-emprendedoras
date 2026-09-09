@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explorador conceptual del ecosistema de emprendimiento de Guatemala.">
+  <title>Ecosistema emprendedor · Guatemala</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+  <script defer src="js/catalogo.js"></script>
+  <script defer src="js/mapa.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="brand"><span class="brand-mark" aria-hidden="true">GT</span><div><p class="eyebrow">ATLAS DEL EMPRENDIMIENTO</p><h1>Ecosistema de Guatemala</h1></div></div>
+    <div class="header-actions"><a class="method-link" href="metodologia.html" target="_blank" rel="noopener">Metodología ↗</a><span class="prototype"><span></span> Exploración por niveles · 04</span></div>
+  </header>
+  <main class="workspace">
+    <section class="map-section" aria-label="Mapa interactivo del ecosistema">
+      <div class="map-heading"><p class="eyebrow">VISTA DEL ECOSISTEMA</p><p id="map-context">Ocho dominios. Un entorno compartido.</p></div>
+      <svg id="mapa" aria-label="Red de dominios. Usa Tab y Enter para consultar cada nodo."></svg>
+      <p id="estado" role="status">Cargando el mapa…</p>
+      <div class="map-bottom"><p class="hint">Dominio → subdominio → ficha.<br><span>Los conteos indican registros, no solo instituciones.</span><br><span>○ Actores y programas · □ Centros · ◇ Instrumentos<br>Arrastra para mover · Rueda o pellizco para acercar</span></p><div class="controls" aria-label="Controles del mapa"><button id="zoom-in" aria-label="Acercar" disabled>+</button><button id="zoom-out" aria-label="Alejar" disabled>−</button><button id="reset" disabled>Restablecer</button></div></div>
+    </section>
+    <aside class="panel" aria-labelledby="panel-title">
+      <nav id="breadcrumb" class="breadcrumb" aria-label="Ruta de exploración"></nav>
+      <p class="eyebrow" id="panel-kind">GUÍA DE LECTURA</p>
+      <h2 id="panel-title">Un ecosistema,<br>múltiples conexiones.</h2>
+      <p id="panel-description">Explora actores, centros, programas e instrumentos por dominio y subdominio. Basado en el mapa de Ciudad de Guatemala y ampliado con los trabajos del curso y fuentes oficiales.</p>
+      <div class="catalog-search">
+        <label for="actor-search">Buscar en todo el ecosistema</label>
+        <input id="actor-search" type="search" placeholder="MINEDUC, CNB, cooperativas…" autocomplete="off">
+        <button id="show-all" type="button" disabled>Ver catálogo completo</button>
+      </div>
+      <section id="actor-section" hidden aria-labelledby="actor-list-title">
+        <div class="panel-rule"></div>
+        <p class="eyebrow" id="actor-list-title">CATÁLOGO DEL DOMINIO</p>
+        <div class="catalog-filters" id="catalog-filters">
+          <label for="subdomain-filter">Subdominio<select id="subdomain-filter"><option value="">Todos</option></select></label>
+          <label for="type-filter">Tipo de registro<select id="type-filter"><option value="">Todos</option><option value="actor">Actores e instituciones</option><option value="unidad">Centros y unidades</option><option value="iniciativa">Programas y eventos</option><option value="instrumento">Instrumentos y trámites</option><option value="agrupacion">Agrupaciones y referencias compuestas</option></select></label>
+        </div>
+        <p id="catalog-results" role="status"></p>
+        <div class="catalog-pagination" id="catalog-pagination"><button id="previous-page" type="button">Anterior</button><span id="page-label"></span><button id="next-page" type="button">Siguiente</button></div>
+        <div id="actor-list"></div>
+        <section id="actor-detail" hidden aria-labelledby="actor-title">
+          <p class="eyebrow" id="actor-type"></p>
+          <h3 id="actor-title"></h3>
+          <p id="actor-description"></p>
+          <p id="actor-note"></p>
+          <p class="eyebrow">DOMINIOS Y FUNCIONES</p>
+          <div id="actor-domains"></div>
+          <div id="actor-relations"></div>
+          <p class="eyebrow">FUENTES</p>
+          <p id="actor-frequency"></p>
+          <ul id="actor-sources"></ul>
+        </section>
+      </section>
+      <div class="panel-rule"></div>
+      <p class="eyebrow">DOMINIOS DEL MAPA</p>
+      <nav id="domain-list" aria-label="Seleccionar un dominio"></nav>
+      <div class="data-note"><span class="note-label">ALCANCE DEL MAPEO</span><p id="catalog-scope">Base de Ciudad de Guatemala con ampliaciones nacionales. Las líneas indican agrupación temática. Instituciones, programas e instrumentos se distinguen por tipo; una entidad puede participar en varios dominios.</p><a href="metodologia.html" target="_blank" rel="noopener">Metodología y cobertura</a></div>
+      <div class="panel-footer"><span>08 dominios</span><span id="actor-total">Cargando selección…</span></div>
+    </aside>
+  </main>
+  <noscript>Activa JavaScript para explorar el mapa.</noscript>
+</body>
+</html>

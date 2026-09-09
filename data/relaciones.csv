@@ -1,0 +1,9 @@
+origen,destino,tipo
+ecosistema,politica,conexion_conceptual
+ecosistema,educacion,conexion_conceptual
+ecosistema,talento,conexion_conceptual
+ecosistema,innovacion,conexion_conceptual
+ecosistema,apoyo,conexion_conceptual
+ecosistema,finanzas,conexion_conceptual
+ecosistema,mercados,conexion_conceptual
+ecosistema,cultura,conexion_conceptual
