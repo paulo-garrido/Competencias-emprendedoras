@@ -84,6 +84,6 @@ El sitio está preparado para publicarse sin compilación. El archivo `.nojekyll
 3. En el repositorio, abre **Settings → Pages**, elige **Deploy from a branch**, la rama que contiene los archivos (normalmente `main`) y **/ (root)**. Guarda.
 4. Cuando termine el despliegue, abre el enlace que muestra GitHub Pages y comprueba un dominio, una ficha y la metodología.
 
-Las rutas son relativas y funcionan dentro de la subcarpeta del repositorio. No se requieren contraseñas ni tokens dentro del código. El sitio todavía no está publicado: falta elegir y conectar el repositorio de destino.
+Las rutas son relativas y funcionan dentro de la subcarpeta del repositorio. No se requieren contraseñas ni tokens dentro del código. Repositorio: https://github.com/paulo-garrido/Competencias-emprendedoras. GitHub Pages está configurado desde `main`, carpeta raíz. Sitio: https://paulo-garrido.github.io/Competencias-emprendedoras/. Las actualizaciones se publican al subir cambios a `main`.
 
 Referencia: [Crear un sitio de GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site).
