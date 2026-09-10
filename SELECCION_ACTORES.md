@@ -6,7 +6,7 @@ La selección anterior de 24 registros imponía un límite de tres por dominio. 
 
 Se incorporaron **las 355 entradas de sus 37 subdominios**, sin excluir entradas por falta de recurrencia. Las menciones repetidas se reúnen cuando identifican claramente el mismo registro; cada asignación temática conserva la sección y el texto de origen. Se sumaron los registros previos, aportes de los otros mapas y fuentes oficiales sobre ministerios y currículo.
 
-El resultado contiene **359 registros únicos del catálogo**: 175 actores (entidades, redes y empresas), 27 centros o unidades, 114 programas o eventos, 34 instrumentos o trámites y 9 agrupaciones o referencias compuestas. Los 359 registros no equivalen a 359 instituciones.
+El resultado contiene **370 registros únicos del catálogo**: 177 actores (entidades, redes y empresas), 28 centros o unidades, 122 programas o eventos, 34 instrumentos o trámites y 9 agrupaciones o referencias compuestas. Los 370 registros no equivalen a 370 instituciones.
 
 ## Cobertura por dominio
 
@@ -16,12 +16,12 @@ Una misma ficha puede pertenecer a varios dominios. Por ello, estas cifras no de
 | --- | ---: | ---: |
 | Política, regulación y gobernanza | 72 | 7 |
 | Sistema educativo | 21 | 3 |
-| Talento humano | 39 | 5 |
-| Investigación, desarrollo e innovación | 15 | 1 |
-| Servicios de apoyo, redes e infraestructura | 81 | 9 |
-| Sector financiero e inversión | 75 | 9 |
-| Sector corporativo, mercados y demanda | 77 | 9 |
-| Cultura, comunidades y modelos de rol | 49 | 4 |
+| Talento humano | 44 | 5 |
+| Investigación, desarrollo e innovación | 21 | 3 |
+| Servicios de apoyo, redes e infraestructura emprendedora | 81 | 9 |
+| Sector financiero e inversión | 76 | 9 |
+| Sector corporativo, mercados y demanda | 80 | 9 |
+| Cultura, comunidades y modelos de rol | 52 | 4 |
 
 ## Ministerios incorporados
 
@@ -99,6 +99,35 @@ Los archivos originales permanecen en `fuentes/`. Se utilizaron ocho trabajos di
 
 La validación automática comprueba identificadores, referencias locales, vínculos, cobertura del mapa base y la conexión CNB–MINEDUC. Las pruebas de consulta recorren todas las páginas de cada dominio, verifican búsqueda, filtros, resultados vacíos y posiciones deterministas. Estas pruebas no sustituyen una revisión visual en el navegador o proyector.
 
+## Revisión de los comentarios y clasificación funcional
+
+Se reforzó Competencias emprendedoras con centros, organizaciones y programas de formación respaldados por fuentes. Instituciones y programas mantienen fichas distintas.
+
+Investigación se organiza ahora en tres subdominios: **Investigación y conocimiento**, **Prototipado e infraestructura tecnológica** e **Innovación y transferencia tecnológica**. La redistribución es editorial, basada en la función de cada registro; no es una clasificación atribuida literalmente al mapa base. `subdominio_original` y las evidencias conservan la sección original. CATI se ubica en transferencia y propiedad intelectual, no como laboratorio de fabricación.
+
+FENACOAC tiene identidad propia y un vínculo con Sistema MICOOPE, que ya estaba incluido. MINECO, MAGA e INGUAT se relacionan con mercados por comercio exterior, comercialización agrícola y emprendimiento turístico, respectivamente. No se añadió MARN o MSPAS a mercados sin una función comercial concreta.
+
+Startup Grind se incorpora también a Eventos y ferias como comunidad organizadora. Volcano Innovation Summit, Win.gt, Guatecompras y Startup World Cup ya figuraban en las categorías sugeridas; no se duplican. Se incorporan Training Day y el Premio Nacional de Innovación.
+
+No se incorporan de forma automática universidades completas, CONCYT, SINCYT, ProcienciaGT ni referencias genéricas a «otros laboratorios»: requieren delimitar su identidad y función. Las convocatorias históricas de ProInnovaCTi no se presentan como abiertas. La noticia de Training Day acredita su anuncio, no confirma asistencia ni realización.
+
+### Fuentes de esta revisión
+
+- [KEC · Educación e investigación](https://kec.ufm.edu/)
+- [UVG · CREA Formación](https://crea.app.uvg.edu.gt/programas/crea-formaci%C3%B3n)
+- [Junior Achievement Guatemala · Formación](https://jaguatemala.org/)
+- [KEC · Desafío Bi](https://kec.ufm.edu/desafio-bi/)
+- [Génesis Empresarial · Desarrollo empresarial](https://www.genesisempresarial.org/somos-familia)
+- [SENACYT · ProInnovaCTi y líneas de financiamiento](https://fondo.senacyt.gob.gt/index.php/convocatorias-cerradas?catid=2&id=14&view=article)
+- [SENACYT · Premio Nacional de Innovación](https://pni.senacyt.gob.gt/)
+- [UVG · Oficina de Transferencia Tecnológica](https://www.uvg.edu.gt/ott/)
+- [MICOOPE · Sistema y FENACOAC](https://micoope.com.gt/sistema-micoope/)
+- [MINECO · Acceso a mercados internacionales](https://guatemalaexporta.mineco.gob.gt/como-exportar/)
+- [MAGA · Redes de comercialización](https://www.maga.gob.gt/redes-de-comercializacion-de-agricultura-familiar-trazan-rutas-para-el-desarrollo/)
+- [INGUAT · Plan de turismo rural y comunitario 2024–2029](https://biblioteca.inguat.gob.gt/library/images/6/63/Plan_estrat%C3%A9gico_turismo_rural_comunitario_Guatemala_2024-2029.pdf)
+- [Startup Grind · Capítulo Guatemala City](https://www.startupgrind.com/guatemala-city/)
+- [Win.gt · Training Day 2026](https://win.gt/ecosistema/training-day-la-reunion-empresarial-mas-influyente-de-centroamerica/)
+
 ## Inventario de registros
 
 Cada fila es una ficha única; los dominios múltiples no crean filas duplicadas.
@@ -109,28 +138,28 @@ Cada fila es una ficha única; los dominios múltiples no crean filas duplicadas
 | 10X Bootcamp | Programa / iniciativa | Talento humano |
 | 4 Grados Norte / Zona 4 | Agrupación / entorno | Sector corporativo, mercados y demanda |
 | 500 Global – LatAm Seed IV (BID Lab) | Programa / servicio | Sector financiero e inversión |
-| AGEXPORT | Asociación empresarial | Servicios de apoyo, redes e infraestructura; Política, regulación y gobernanza; Sector corporativo, mercados y demanda |
-| AGEXPORT – Comisión ITO | Centro / unidad institucional | Servicios de apoyo, redes e infraestructura |
+| AGEXPORT | Asociación empresarial | Servicios de apoyo, redes e infraestructura emprendedora; Política, regulación y gobernanza; Sector corporativo, mercados y demanda |
+| AGEXPORT – Comisión ITO | Centro / unidad institucional | Servicios de apoyo, redes e infraestructura emprendedora |
 | AGEXPORT – Encadenamientos Empresariales | Programa / servicio | Sector corporativo, mercados y demanda |
 | AGEXPORT – La Ruta del Exportador | Programa / servicio | Sector corporativo, mercados y demanda |
 | AGEXPORT – Sector Servicios | Centro / unidad institucional | Sector corporativo, mercados y demanda |
 | AGEXPORT – sectores de exportación | Agrupación / entorno | Sector corporativo, mercados y demanda |
 | ANDE | Entidad / red / empresa | Política, regulación y gobernanza |
-| ASEGUA | Entidad / red / empresa | Cultura, comunidades y modelos de rol; Servicios de apoyo, redes e infraestructura; Política, regulación y gobernanza |
+| ASEGUA | Entidad / red / empresa | Cultura, comunidades y modelos de rol; Servicios de apoyo, redes e infraestructura emprendedora; Política, regulación y gobernanza |
 | ASIES | Entidad / red / empresa | Política, regulación y gobernanza |
 | Academia Cámara de Comercio | Centro / unidad institucional | Talento humano |
-| Aceleradora Startups Cívicas – Red Ciudadana | Programa / servicio | Servicios de apoyo, redes e infraestructura |
+| Aceleradora Startups Cívicas – Red Ciudadana | Programa / servicio | Servicios de apoyo, redes e infraestructura emprendedora |
 | Aceleradora de Startups Cívicas (BID Lab) | Programa / iniciativa | Sector financiero e inversión |
-| Aceleremos Guate | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura |
+| Aceleremos Guate | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura emprendedora |
 | Acuerdo de Asociación UE–Centroamérica | Instrumento / marco normativo | Sector corporativo, mercados y demanda |
 | Agritrade (AGEXPORT) | Evento / competencia | Sector corporativo, mercados y demanda |
-| Alterna | Organización de apoyo | Cultura, comunidades y modelos de rol; Talento humano; Servicios de apoyo, redes e infraestructura; Sector financiero e inversión |
-| AmCham Guatemala | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura; Política, regulación y gobernanza |
+| Alterna | Organización de apoyo | Cultura, comunidades y modelos de rol; Talento humano; Servicios de apoyo, redes e infraestructura emprendedora; Sector financiero e inversión |
+| AmCham Guatemala | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura emprendedora; Política, regulación y gobernanza |
 | AmCham – Trade Center | Programa / servicio | Sector corporativo, mercados y demanda |
 | Apparel Sourcing Show (VESTEX) | Evento / competencia | Sector corporativo, mercados y demanda |
 | Ashoka Guatemala | Entidad / red / empresa | Cultura, comunidades y modelos de rol |
 | Asociación Bancaria de Guatemala | Organización | Sector corporativo, mercados y demanda |
-| Asociación de Gerentes de Guatemala | Organización | Servicios de apoyo, redes e infraestructura |
+| Asociación de Gerentes de Guatemala | Organización | Servicios de apoyo, redes e infraestructura emprendedora |
 | Aurora STEAM GT | Entidad / red / empresa | Cultura, comunidades y modelos de rol; Talento humano |
 | BAC Guatemala | Entidad / red / empresa | Sector financiero e inversión |
 | BCIE | Entidad / red / empresa | Política, regulación y gobernanza |
@@ -151,64 +180,64 @@ Cada fila es una ficha única; los dominios múltiples no crean filas duplicadas
 | Banrural – Factoraje PYME | Programa / servicio | Sector financiero e inversión |
 | Banrural – MiPymes | Programa / servicio | Sector financiero e inversión |
 | Barrilete Ventures | Entidad / red / empresa | Sector financiero e inversión |
-| Bend Oficinas Flexibles | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura |
+| Bend Oficinas Flexibles | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura emprendedora |
 | Bowpi | Entidad / red / empresa | Sector financiero e inversión |
-| Bridge for Billions | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura |
-| Bridge for Billions – Conecta | Programa / servicio | Servicios de apoyo, redes e infraestructura |
-| Bridge for Billions – Conecta (BID Lab) | Programa / servicio | Servicios de apoyo, redes e infraestructura |
+| Bridge for Billions | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura emprendedora |
+| Bridge for Billions – Conecta | Programa / servicio | Servicios de apoyo, redes e infraestructura emprendedora |
+| Bridge for Billions – Conecta (BID Lab) | Programa / servicio | Servicios de apoyo, redes e infraestructura emprendedora |
 | CACIF | Entidad / red / empresa | Política, regulación y gobernanza |
-| CACIF Joven | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura |
+| CACIF Joven | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura emprendedora |
 | CAFI | Entidad / red / empresa | Sector financiero e inversión |
 | CAFTA-DR | Instrumento / marco normativo | Sector corporativo, mercados y demanda |
-| CAPCA | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura; Sector financiero e inversión |
+| CAPCA | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura emprendedora; Sector financiero e inversión |
 | CATI – U. Galileo + RPI | Centro / unidad institucional | Investigación, desarrollo e innovación |
 | CBC | Entidad / red / empresa | Sector corporativo, mercados y demanda |
-| CCG – Asesoría Empresarial | Programa / servicio | Servicios de apoyo, redes e infraestructura |
+| CCG – Asesoría Empresarial | Programa / servicio | Servicios de apoyo, redes e infraestructura emprendedora |
 | CENPROMYPE | Entidad / red / empresa | Política, regulación y gobernanza |
 | CENPROMYPE / SICA | Programa / servicio | Política, regulación y gobernanza |
-| CENTRAL LAW | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura |
+| CENTRAL LAW | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura emprendedora |
 | CIEN | Entidad / red / empresa | Política, regulación y gobernanza |
 | CMI | Entidad / red / empresa | Sector corporativo, mercados y demanda |
 | CMI / Pollo Campero | Referencia compuesta | Sector corporativo, mercados y demanda |
 | CMI Ventures | Entidad / red / empresa | Sector corporativo, mercados y demanda |
 | CONJUVE / MINTRAB | Referencia compuesta | Política, regulación y gobernanza |
-| Cacao Capital | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura; Sector financiero e inversión |
-| Campus TEC | Infraestructura tecnológica | Cultura, comunidades y modelos de rol; Servicios de apoyo, redes e infraestructura; Sector corporativo, mercados y demanda; Investigación, desarrollo e innovación |
+| Cacao Capital | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura emprendedora; Sector financiero e inversión |
+| Campus TEC | Infraestructura tecnológica | Cultura, comunidades y modelos de rol; Servicios de apoyo, redes e infraestructura emprendedora; Sector corporativo, mercados y demanda; Investigación, desarrollo e innovación |
 | Carao Ventures | Entidad / red / empresa | Sector financiero e inversión |
 | Castillo Hermanos | Entidad / red / empresa | Sector corporativo, mercados y demanda |
 | Cementos Progreso | Entidad / red / empresa | Sector corporativo, mercados y demanda |
 | Cementos Progreso – compras inclusivas | Programa / servicio | Sector corporativo, mercados y demanda |
 | CentraRSE | Entidad / red / empresa | Política, regulación y gobernanza |
-| Centro Municipal de Emprendimiento | Centro / unidad institucional | Cultura, comunidades y modelos de rol; Servicios de apoyo, redes e infraestructura; Política, regulación y gobernanza |
+| Centro Municipal de Emprendimiento | Centro / unidad institucional | Cultura, comunidades y modelos de rol; Servicios de apoyo, redes e infraestructura emprendedora; Política, regulación y gobernanza |
 | Centro de Emprendimiento Landívar (CEL) – URL | Centro / unidad institucional | Sistema educativo |
-| Centro de Innovación y Emprendimiento Bi | Centro / unidad institucional | Cultura, comunidades y modelos de rol; Talento humano; Servicios de apoyo, redes e infraestructura |
+| Centro de Innovación y Emprendimiento Bi | Centro / unidad institucional | Cultura, comunidades y modelos de rol; Talento humano; Servicios de apoyo, redes e infraestructura emprendedora |
 | Centro de Innovación y Tecnología – UVG | Centro / unidad institucional | Investigación, desarrollo e innovación |
-| Centros de Incubación MINECO–Taiwán | Centro / unidad institucional | Servicios de apoyo, redes e infraestructura |
-| Claro | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura |
+| Centros de Incubación MINECO–Taiwán | Centro / unidad institucional | Servicios de apoyo, redes e infraestructura emprendedora |
+| Claro | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura emprendedora |
 | Cluster TICs / Guatemalan Software | Agrupación / entorno | Sector corporativo, mercados y demanda |
 | Coincaex | Entidad / red / empresa | Sector financiero e inversión |
-| Colegio de Abogados y Notarios de Guatemala | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura |
-| Colegio de Contadores Públicos y Auditores | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura |
+| Colegio de Abogados y Notarios de Guatemala | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura emprendedora |
+| Colegio de Contadores Públicos y Auditores | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura emprendedora |
 | Conexión Guatemala | Entidad / red / empresa | Sector corporativo, mercados y demanda |
 | Congreso de Mujeres Líderes (CCG) | Evento / competencia | Cultura, comunidades y modelos de rol |
-| Consortium Legal | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura |
-| Coworking Fundación Bi | Centro / unidad institucional | Servicios de apoyo, redes e infraestructura |
+| Consortium Legal | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura emprendedora |
+| Coworking Fundación Bi | Centro / unidad institucional | Servicios de apoyo, redes e infraestructura emprendedora |
 | Cuantico VC | Entidad / red / empresa | Sector financiero e inversión |
 | Cuik | Entidad / red / empresa | Sector corporativo, mercados y demanda; Sector financiero e inversión |
 | Currículum Nacional Base (CNB) | Instrumento curricular | Sistema educativo; Política, regulación y gobernanza; Talento humano |
-| Cámara de Comercio de Guatemala | Cámara empresarial | Servicios de apoyo, redes e infraestructura; Política, regulación y gobernanza; Sector corporativo, mercados y demanda |
-| Cámara de Industria de Guatemala | Cámara empresarial | Servicios de apoyo, redes e infraestructura; Política, regulación y gobernanza; Sector corporativo, mercados y demanda |
-| DINAMICA II (BCIE + UE + KfW) | Programa / servicio | Servicios de apoyo, redes e infraestructura |
+| Cámara de Comercio de Guatemala | Cámara empresarial | Servicios de apoyo, redes e infraestructura emprendedora; Política, regulación y gobernanza; Sector corporativo, mercados y demanda |
+| Cámara de Industria de Guatemala | Cámara empresarial | Servicios de apoyo, redes e infraestructura emprendedora; Política, regulación y gobernanza; Sector corporativo, mercados y demanda |
+| DINAMICA II (BCIE + UE + KfW) | Programa / servicio | Servicios de apoyo, redes e infraestructura emprendedora |
 | DINAMICA II – Capital Semilla (BCIE) | Programa / servicio | Sector financiero e inversión |
 | DISAGRO | Entidad / red / empresa | Sector corporativo, mercados y demanda |
 | Dadneo | Entidad / red / empresa | Sector financiero e inversión |
-| Deloitte Guatemala | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura |
-| Delta Accelerator (Innogen Capital) | Programa / iniciativa | Servicios de apoyo, redes e infraestructura |
+| Deloitte Guatemala | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura emprendedora |
+| Delta Accelerator (Innogen Capital) | Programa / iniciativa | Servicios de apoyo, redes e infraestructura emprendedora |
 | Dirección General de Investigación (DIGI) – USAC | Centro / unidad institucional | Investigación, desarrollo e innovación |
 | Démosle Guate (Fundación Bi) | Programa / servicio | Sector corporativo, mercados y demanda |
 | ENIF – Mesa Técnica MIPYME (SIB) | Instrumento / marco normativo | Sector financiero e inversión |
 | ESEC – Universidad Galileo | Programa / servicio | Talento humano |
-| Ella Emprende (Coca-Cola + Wakami) | Programa / iniciativa | Servicios de apoyo, redes e infraestructura |
+| Ella Emprende (Coca-Cola + Wakami) | Programa / iniciativa | Servicios de apoyo, redes e infraestructura emprendedora |
 | EmprendI Crowdfunding | Entidad / red / empresa | Sector financiero e inversión |
 | Emprende GT (podcast) | Entidad / red / empresa | Cultura, comunidades y modelos de rol |
 | Emprende502 | Entidad / red / empresa | Cultura, comunidades y modelos de rol |
@@ -218,8 +247,8 @@ Cada fila es una ficha única; los dominios múltiples no crean filas duplicadas
 | Escuela Superior de Negocios – AGEXPORT | Centro / unidad institucional | Sistema educativo |
 | Expo MIPYME Proveedora del Estado | Evento / feria | Sector corporativo, mercados y demanda |
 | Expocasa | Evento / competencia | Sector corporativo, mercados y demanda |
-| Exponenciadores Bi (Fundación Bi) | Programa / servicio | Servicios de apoyo, redes e infraestructura |
-| FEPYME | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura |
+| Exponenciadores Bi (Fundación Bi) | Programa / servicio | Servicios de apoyo, redes e infraestructura emprendedora |
+| FEPYME | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura emprendedora |
 | FINCA | Entidad / red / empresa | Sector financiero e inversión |
 | FONACYT | Fondo / instrumento de financiamiento | Investigación, desarrollo e innovación; Sector financiero e inversión |
 | FUNDAP | Entidad / red / empresa | Talento humano |
@@ -237,21 +266,21 @@ Cada fila es una ficha única; los dominios múltiples no crean filas duplicadas
 | Festival de Emprendimiento Landívar | Evento / competencia | Cultura, comunidades y modelos de rol |
 | Fideicomiso Fondo MIPYME (MINECO) | Instrumento / marco normativo | Sector financiero e inversión |
 | Financiera SinFin | Entidad / red / empresa | Sector financiero e inversión |
-| Fintech Guatemala | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura; Sector financiero e inversión; Política, regulación y gobernanza |
-| Fintech Guatemala – meetups | Evento / competencia | Servicios de apoyo, redes e infraestructura |
+| Fintech Guatemala | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura emprendedora; Sector financiero e inversión; Política, regulación y gobernanza |
+| Fintech Guatemala – meetups | Evento / competencia | Servicios de apoyo, redes e infraestructura emprendedora |
 | First Tuesday Guatemala | Evento / competencia | Cultura, comunidades y modelos de rol |
 | First Tuesday UFM / KEC Talkshow | Evento / competencia | Cultura, comunidades y modelos de rol |
-| Foro de Innovación (CIG) | Evento / competencia | Cultura, comunidades y modelos de rol; Servicios de apoyo, redes e infraestructura |
+| Foro de Innovación (CIG) | Evento / competencia | Cultura, comunidades y modelos de rol; Servicios de apoyo, redes e infraestructura emprendedora |
 | Foro de Innovación Tecnológica – U. Galileo | Evento / competencia | Cultura, comunidades y modelos de rol |
-| Founder Institute Guatemala | Entidad / red / empresa | Cultura, comunidades y modelos de rol; Servicios de apoyo, redes e infraestructura |
-| Founder Institute – eventos | Programa / servicio | Servicios de apoyo, redes e infraestructura |
+| Founder Institute Guatemala | Entidad / red / empresa | Cultura, comunidades y modelos de rol; Servicios de apoyo, redes e infraestructura emprendedora |
+| Founder Institute – eventos | Programa / servicio | Servicios de apoyo, redes e infraestructura emprendedora |
 | Founder Institute – red de inversores | Programa / servicio | Sector financiero e inversión |
 | Friendship Bridge / Puente de Amistad | Organización | Talento humano; Sector financiero e inversión |
-| Fundación Bi | Organización | Servicios de apoyo, redes e infraestructura |
+| Fundación Bi | Organización | Servicios de apoyo, redes e infraestructura emprendedora |
 | Fundación Carlos F. Novella | Organización | Talento humano |
 | Fundación FAPE | Organización | Sector financiero e inversión |
-| Fundación Génesis Empresarial | Organización | Talento humano; Servicios de apoyo, redes e infraestructura; Sector financiero e inversión |
-| Fundación Juan Bautista Gutiérrez | Organización | Servicios de apoyo, redes e infraestructura; Sector financiero e inversión |
+| Fundación Génesis Empresarial | Organización | Talento humano; Servicios de apoyo, redes e infraestructura emprendedora; Sector financiero e inversión |
+| Fundación Juan Bautista Gutiérrez | Organización | Servicios de apoyo, redes e infraestructura emprendedora; Sector financiero e inversión |
 | Fundación Kinal | Organización | Talento humano |
 | Fundación Tigo – Conectadas | Programa / servicio | Sector financiero e inversión |
 | GEM Guatemala (KEC – UFM) | Programa / servicio | Investigación, desarrollo e innovación |
@@ -260,14 +289,14 @@ Cada fila es una ficha única; los dominios múltiples no crean filas duplicadas
 | Gea Capital | Entidad / red / empresa | Sector financiero e inversión |
 | Glasswing International | Entidad / red / empresa | Talento humano |
 | Global Shapers Guatemala City Hub | Entidad / red / empresa | Cultura, comunidades y modelos de rol |
-| Go Work Guatemala | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura |
-| Gremial de Empresas Lideradas por Mujeres | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura |
+| Go Work Guatemala | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura emprendedora |
+| Gremial de Empresas Lideradas por Mujeres | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura emprendedora |
 | Gremiales sectoriales CIG | Agrupación / entorno | Sector corporativo, mercados y demanda |
 | Grupo Pantaleón | Entidad / red / empresa | Sector corporativo, mercados y demanda |
 | Guatecompras | Plataforma / trámite | Sector corporativo, mercados y demanda |
 | Guatecompras – RGAE | Plataforma / trámite | Política, regulación y gobernanza |
 | Guatemala Digital | Entidad / red / empresa | Sector corporativo, mercados y demanda |
-| Guatemala Emprende (CIG) | Programa / servicio | Talento humano; Servicios de apoyo, redes e infraestructura |
+| Guatemala Emprende (CIG) | Programa / servicio | Talento humano; Servicios de apoyo, redes e infraestructura emprendedora |
 | Guatemala Innovation Fund (SEAF) | Fondo / mecanismo de financiamiento | Sector financiero e inversión |
 | Guatemala No Se Detiene (FUNDESA) | Programa / iniciativa | Sector corporativo, mercados y demanda |
 | HIPGive | Entidad / red / empresa | Sector financiero e inversión |
@@ -279,9 +308,9 @@ Cada fila es una ficha única; los dominios múltiples no crean filas duplicadas
 | IFC – Banco Mundial | Referencia compuesta | Política, regulación y gobernanza |
 | IGSS | Entidad / red / empresa | Política, regulación y gobernanza |
 | INTECAP | Institución de formación | Sistema educativo; Talento humano; Política, regulación y gobernanza |
-| INTECAP Empresarial | Centro / unidad institucional | Servicios de apoyo, redes e infraestructura |
+| INTECAP Empresarial | Centro / unidad institucional | Servicios de apoyo, redes e infraestructura emprendedora |
 | INTECAP – curso Entrepreneurship (ESB) | Programa / servicio | Talento humano |
-| Impact Hub Antigua | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura |
+| Impact Hub Antigua | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura emprendedora |
 | Innogen Capital | Entidad / red / empresa | Sector financiero e inversión |
 | Innogen Capital – Delta Fund I | Programa / servicio | Sector financiero e inversión |
 | InnovaUNIS – Universidad del Istmo | Programa / servicio | Sistema educativo |
@@ -293,11 +322,11 @@ Cada fila es una ficha única; los dominios múltiples no crean filas duplicadas
 | Junior Achievement Guatemala | Organización educativa | Talento humano |
 | Junta Monetaria | Entidad / red / empresa | Política, regulación y gobernanza |
 | Jóvenes con Propósito (USAID + Glasswing) | Programa / iniciativa | Talento humano |
-| Kirzner Entrepreneurship Center (KEC) – UFM | Programa / servicio | Sistema educativo; Servicios de apoyo, redes e infraestructura |
+| Kirzner Entrepreneurship Center (KEC) – UFM | Programa / servicio | Sistema educativo; Servicios de apoyo, redes e infraestructura emprendedora |
 | Kiva | Entidad / red / empresa | Sector financiero e inversión |
 | Kiva – crowdlending | Programa / servicio | Sector financiero e inversión |
 | Kodigo | Entidad / red / empresa | Talento humano |
-| LEGALSA / Startups Legalsa | Programa / servicio | Servicios de apoyo, redes e infraestructura |
+| LEGALSA / Startups Legalsa | Programa / servicio | Servicios de apoyo, redes e infraestructura emprendedora |
 | La Estación del Emprendedor (Muni) | Programa / servicio | Política, regulación y gobernanza |
 | Level Up GT | Entidad / red / empresa | Talento humano |
 | Ley de Competencia (Dto. 32-2024) | Instrumento / marco normativo | Política, regulación y gobernanza |
@@ -322,26 +351,26 @@ Cada fila es una ficha única; los dominios múltiples no crean filas duplicadas
 | Makerspaces Fundación Bi | Centro / unidad institucional | Investigación, desarrollo e innovación |
 | Manos Unidas + UE – PIT | Programa / servicio | Sector financiero e inversión |
 | Manufexport | Evento / competencia | Sector corporativo, mercados y demanda |
-| Mayora & Mayora | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura |
+| Mayora & Mayora | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura emprendedora |
 | Meira Capital | Entidad / red / empresa | Sector financiero e inversión |
 | Minegocio.gt (Sociedades de Emprendimiento) | Plataforma / trámite | Política, regulación y gobernanza |
 | Ministerio de Agricultura, Ganadería y Alimentación (MAGA) | Ministerio | Política, regulación y gobernanza; Talento humano |
-| Ministerio de Ambiente y Recursos Naturales (MARN) | Ministerio | Política, regulación y gobernanza; Servicios de apoyo, redes e infraestructura |
-| Ministerio de Economía (MINECO) | Ministerio | Política, regulación y gobernanza; Servicios de apoyo, redes e infraestructura |
+| Ministerio de Ambiente y Recursos Naturales (MARN) | Ministerio | Política, regulación y gobernanza; Servicios de apoyo, redes e infraestructura emprendedora |
+| Ministerio de Economía (MINECO) | Ministerio | Política, regulación y gobernanza; Servicios de apoyo, redes e infraestructura emprendedora |
 | Ministerio de Educación (MINEDUC) | Ministerio | Política, regulación y gobernanza; Sistema educativo |
 | Ministerio de Finanzas Públicas (MINFIN) | Ministerio | Política, regulación y gobernanza; Sector corporativo, mercados y demanda |
-| Ministerio de Salud Pública y Asistencia Social (MSPAS) | Ministerio | Política, regulación y gobernanza; Servicios de apoyo, redes e infraestructura |
+| Ministerio de Salud Pública y Asistencia Social (MSPAS) | Ministerio | Política, regulación y gobernanza; Servicios de apoyo, redes e infraestructura emprendedora |
 | Ministerio de Trabajo y Previsión Social (MINTRAB) | Ministerio | Política, regulación y gobernanza; Talento humano |
 | Mujeres Emprendiendo Guatemala (MEG) | Entidad / red / empresa | Talento humano |
 | Mujeres Exportadoras (AGEXPORT) | Programa / servicio | Sector corporativo, mercados y demanda; Política, regulación y gobernanza |
 | Mujeres TICs Guatemala | Entidad / red / empresa | Cultura, comunidades y modelos de rol; Talento humano |
-| Multiverse | Plataforma de apoyo | Servicios de apoyo, redes e infraestructura; Sector financiero e inversión |
+| Multiverse | Plataforma de apoyo | Servicios de apoyo, redes e infraestructura emprendedora; Sector financiero e inversión |
 | Municipalidad de Guatemala | Gobierno local | Política, regulación y gobernanza |
-| Mérida y Asociados | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura |
+| Mérida y Asociados | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura emprendedora |
 | NEWGEN (AGEXPORT) | Programa / iniciativa | Sector corporativo, mercados y demanda |
 | NEXTECH by Colombiatex (VESTEX) | Evento / competencia | Sector corporativo, mercados y demanda |
 | NeoNet – NeoPay | Programa / servicio | Sector corporativo, mercados y demanda |
-| Nexo Industrial (CIG) | Programa / servicio | Servicios de apoyo, redes e infraestructura |
+| Nexo Industrial (CIG) | Programa / servicio | Servicios de apoyo, redes e infraestructura emprendedora |
 | Normativa prudencial SIB / Junta Monetaria | Instrumento / marco normativo | Política, regulación y gobernanza |
 | OIM | Entidad / red / empresa | Política, regulación y gobernanza |
 | OIM + USAID – guías de emprendimiento | Referencia compuesta | Sector corporativo, mercados y demanda |
@@ -349,41 +378,41 @@ Cada fila es una ficha única; los dominios múltiples no crean filas duplicadas
 | OIM – OportuGuate / SINAREM | Programa / servicio | Sector corporativo, mercados y demanda |
 | OIT | Entidad / red / empresa | Política, regulación y gobernanza |
 | Opercomsa | Entidad / red / empresa | Sector financiero e inversión |
-| PMI Guatemala – Mentoring | Programa / servicio | Servicios de apoyo, redes e infraestructura |
+| PMI Guatemala – Mentoring | Programa / servicio | Servicios de apoyo, redes e infraestructura emprendedora |
 | PNUD | Entidad / red / empresa | Política, regulación y gobernanza |
 | PRONACOM | Programa público | Política, regulación y gobernanza |
 | Paggo | Entidad / red / empresa | Cultura, comunidades y modelos de rol |
-| Palomo Abogados | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura |
+| Palomo Abogados | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura emprendedora |
 | Paltus Capital | Entidad / red / empresa | Sector financiero e inversión |
 | PedidosYa | Entidad / red / empresa | Sector corporativo, mercados y demanda |
 | Perspectiva (perspectiva.gt) | Entidad / red / empresa | Cultura, comunidades y modelos de rol |
 | Pitch de Negocios – Festival Landívar | Evento / competencia | Cultura, comunidades y modelos de rol |
 | Política Guatemala Emprende (AG 150-2015) | Instrumento / marco normativo | Política, regulación y gobernanza |
 | Política Nal. de Competitividad (PRONACOM) | Instrumento / marco normativo | Sector corporativo, mercados y demanda |
-| Pomona Impact | Organización de inversión | Servicios de apoyo, redes e infraestructura; Sector financiero e inversión |
+| Pomona Impact | Organización de inversión | Servicios de apoyo, redes e infraestructura emprendedora; Sector financiero e inversión |
 | Premio Emprendedora del Año (MEG) | Evento / competencia | Cultura, comunidades y modelos de rol |
 | Premio Industrial (CIG) | Evento / competencia | Cultura, comunidades y modelos de rol |
 | Prensa Libre – Emprendimiento | Programa / servicio | Cultura, comunidades y modelos de rol |
 | ProGuatemala | Entidad / red / empresa | Sector corporativo, mercados y demanda |
-| Prodetur | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura |
+| Prodetur | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura emprendedora |
 | Productividad y Desarrollo · CNB primaria | Área curricular | Sistema educativo |
-| Programa Academia-Empresa (URL) | Programa / servicio | Servicios de apoyo, redes e infraestructura |
+| Programa Academia-Empresa (URL) | Programa / servicio | Servicios de apoyo, redes e infraestructura emprendedora |
 | Programa Empleo Juvenil – becas (INTECAP) | Programa / servicio | Política, regulación y gobernanza |
 | Progreso | Entidad / red / empresa | Sector corporativo, mercados y demanda |
 | Progreso X | Entidad / red / empresa | Sector corporativo, mercados y demanda |
 | Proyecto Talento Digital (MINECO + UE) | Programa / servicio | Talento humano |
-| REDIMIF | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura; Sector financiero e inversión |
+| REDIMIF | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura emprendedora; Sector financiero e inversión |
 | Recurrente | Entidad / red / empresa | Sector corporativo, mercados y demanda; Sector financiero e inversión; Cultura, comunidades y modelos de rol |
-| Red Ciudadana – hackathons | Evento / competencia | Servicios de apoyo, redes e infraestructura |
+| Red Ciudadana – hackathons | Evento / competencia | Servicios de apoyo, redes e infraestructura emprendedora |
 | Red Nacional de Emprendimiento | Organización | Política, regulación y gobernanza |
-| Red Nacional de Grupos Gestores | Red territorial | Servicios de apoyo, redes e infraestructura |
+| Red Nacional de Grupos Gestores | Red territorial | Servicios de apoyo, redes e infraestructura emprendedora |
 | Red de Inversionistas Ángeles (PRONACOM) | Organización | Sector financiero e inversión |
 | Reforma Código de Comercio (Dto. 18-2017) | Instrumento / marco normativo | Política, regulación y gobernanza |
 | Registro Mercantil | Entidad / red / empresa | Política, regulación y gobernanza |
 | Registro Mercantil – ePortal | Plataforma / trámite | Política, regulación y gobernanza |
-| Registro de la Propiedad Intelectual (RPI) | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura; Política, regulación y gobernanza |
+| Registro de la Propiedad Intelectual (RPI) | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura emprendedora; Política, regulación y gobernanza |
 | Reglamento de la Ley (AG 49-2019) | Instrumento / marco normativo | Política, regulación y gobernanza |
-| Regus | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura |
+| Regus | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura emprendedora |
 | República GT | Entidad / red / empresa | Cultura, comunidades y modelos de rol |
 | Revista Estrategia & Negocios | Entidad / red / empresa | Cultura, comunidades y modelos de rol |
 | Revista Industria & Negocios (CIG) | Entidad / red / empresa | Cultura, comunidades y modelos de rol |
@@ -393,22 +422,22 @@ Cada fila es una ficha única; los dominios múltiples no crean filas duplicadas
 | SIB – ENIF 2024-2027 | Instrumento / marco normativo | Política, regulación y gobernanza |
 | Semana Global de Emprendimiento (MINECO) | Evento / competencia | Cultura, comunidades y modelos de rol |
 | Sento AI | Entidad / red / empresa | Cultura, comunidades y modelos de rol |
-| Servicios de Desarrollo Empresarial (MINECO) | Programa / servicio | Servicios de apoyo, redes e infraestructura |
+| Servicios de Desarrollo Empresarial (MINECO) | Programa / servicio | Servicios de apoyo, redes e infraestructura emprendedora |
 | Shark Tank Guatemala | Programa / iniciativa | Cultura, comunidades y modelos de rol |
 | Sierra Capital | Entidad / red / empresa | Sector financiero e inversión |
 | Sistema MICOOPE | Organización | Sector financiero e inversión |
 | Sistema de Embotelladores Coca-Cola Guatemala | Entidad / red / empresa | Sector corporativo, mercados y demanda |
-| Sociedad de Emprendimiento (Reg. Mercantil) | Figura mercantil | Servicios de apoyo, redes e infraestructura |
-| Sollertia Abogados | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura |
+| Sociedad de Emprendimiento (Reg. Mercantil) | Figura mercantil | Servicios de apoyo, redes e infraestructura emprendedora |
+| Sollertia Abogados | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura emprendedora |
 | Solucredit | Entidad / red / empresa | Sector financiero e inversión |
 | Soy502 – Emprendedores | Programa / servicio | Cultura, comunidades y modelos de rol |
-| Spaces (IWG) | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura |
+| Spaces (IWG) | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura emprendedora |
 | Startkit (Swisscontact) | Programa / servicio | Cultura, comunidades y modelos de rol |
 | Startkit – Bolsa de Empleo y Co-founders | Plataforma / trámite | Talento humano |
 | Startkit – Portal Educativo / Catalyst | Centro / unidad institucional | Talento humano |
-| Startkit – calendario del ecosistema | Evento / competencia | Servicios de apoyo, redes e infraestructura |
+| Startkit – calendario del ecosistema | Evento / competencia | Servicios de apoyo, redes e infraestructura emprendedora |
 | Startkit – conexión con recursos | Programa / servicio | Sector financiero e inversión |
-| Startup Grind Guatemala City | Comunidad | Cultura, comunidades y modelos de rol; Servicios de apoyo, redes e infraestructura; Sector financiero e inversión |
+| Startup Grind Guatemala City | Comunidad | Cultura, comunidades y modelos de rol; Servicios de apoyo, redes e infraestructura emprendedora; Sector financiero e inversión |
 | Startup Guatemala Podcast | Entidad / red / empresa | Cultura, comunidades y modelos de rol |
 | Startup Weekend Women Guatemala | Evento / competencia | Cultura, comunidades y modelos de rol; Talento humano |
 | Startup World Cup – Guatemala City | Evento / competencia | Cultura, comunidades y modelos de rol |
@@ -419,15 +448,15 @@ Cada fila es una ficha única; los dominios múltiples no crean filas duplicadas
 | Taiwán – Centros de Incubación MINECO | Centro / unidad institucional | Sector financiero e inversión |
 | TecLab (Campus TEC) | Centro / unidad institucional | Investigación, desarrollo e innovación |
 | Tech Startup GT (Banco Industrial) | Evento / competencia | Cultura, comunidades y modelos de rol |
-| TechnoServe | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura; Talento humano |
-| Technology Summit (AGEXPORT) | Evento / competencia | Cultura, comunidades y modelos de rol; Servicios de apoyo, redes e infraestructura |
+| TechnoServe | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura emprendedora; Talento humano |
+| Technology Summit (AGEXPORT) | Evento / competencia | Cultura, comunidades y modelos de rol; Servicios de apoyo, redes e infraestructura emprendedora |
 | Technology Summit (Insertel / AGEXPORT) | Evento / competencia | Sector corporativo, mercados y demanda |
 | Tecoloco.com.gt | Entidad / red / empresa | Talento humano |
 | Terra Te Impulsa (Fundación Terra + CCG) | Programa / servicio | Talento humano |
 | Tigo Business | Entidad / red / empresa | Sector corporativo, mercados y demanda |
-| Tigo Guatemala (Millicom) | Entidad / red / empresa | Sector corporativo, mercados y demanda; Servicios de apoyo, redes e infraestructura |
+| Tigo Guatemala (Millicom) | Entidad / red / empresa | Sector corporativo, mercados y demanda; Servicios de apoyo, redes e infraestructura emprendedora |
 | Tigo Money | Entidad / red / empresa | Sector financiero e inversión |
-| Todo es Digital | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura |
+| Todo es Digital | Entidad / red / empresa | Servicios de apoyo, redes e infraestructura emprendedora |
 | UE – Programa MIPYMES y cooperativas | Programa / servicio | Sector financiero e inversión |
 | UFM – Lic. en Emprendimiento y Negocios | Programa / servicio | Sistema educativo |
 | USAC | Universidad | Sistema educativo; Investigación, desarrollo e innovación |
@@ -435,7 +464,7 @@ Cada fila es una ficha única; los dominios múltiples no crean filas duplicadas
 | USAID – GEDI / ANDE | Programa / servicio | Sector financiero e inversión |
 | UVG Bridge Business School | Centro / unidad institucional | Sistema educativo |
 | UVG CREA – Centro de Emprendimiento | Centro / unidad institucional | Sistema educativo |
-| UVG-EMS – Entrepreneurial Mentoring | Programa / servicio | Servicios de apoyo, redes e infraestructura |
+| UVG-EMS – Entrepreneurial Mentoring | Programa / servicio | Servicios de apoyo, redes e infraestructura emprendedora |
 | Uber Eats / Uber Direct | Programa / servicio | Sector corporativo, mercados y demanda |
 | Unidad de Emprendimiento – Municipalidad | Centro / unidad institucional | Talento humano |
 | Universidad Da Vinci de Guatemala | Organización | Sistema educativo |
@@ -448,12 +477,12 @@ Cada fila es una ficha única; los dominios múltiples no crean filas duplicadas
 | Unión Europea | Entidad / red / empresa | Política, regulación y gobernanza |
 | VESTEX | Entidad / red / empresa | Sector corporativo, mercados y demanda; Política, regulación y gobernanza |
 | VUPE (SEADEX / DEPREX) | Plataforma / trámite | Sector corporativo, mercados y demanda; Política, regulación y gobernanza |
-| Ventanilla MIPYME (MINECO) | Plataforma / trámite | Servicios de apoyo, redes e infraestructura |
+| Ventanilla MIPYME (MINECO) | Plataforma / trámite | Servicios de apoyo, redes e infraestructura emprendedora |
 | Ventanilla Ágil de Construcción (PRONACOM) | Plataforma / trámite | Política, regulación y gobernanza |
 | VisaNet Guatemala | Entidad / red / empresa | Sector corporativo, mercados y demanda |
-| Voces Vitales Guatemala | Entidad / red / empresa | Talento humano; Servicios de apoyo, redes e infraestructura |
-| Voces Vitales – Que no te roben la idea | Programa / servicio | Servicios de apoyo, redes e infraestructura |
-| Volcano Innovation Summit | Evento | Cultura, comunidades y modelos de rol; Servicios de apoyo, redes e infraestructura |
+| Voces Vitales Guatemala | Entidad / red / empresa | Talento humano; Servicios de apoyo, redes e infraestructura emprendedora |
+| Voces Vitales – Que no te roben la idea | Programa / servicio | Servicios de apoyo, redes e infraestructura emprendedora |
+| Volcano Innovation Summit | Evento | Cultura, comunidades y modelos de rol; Servicios de apoyo, redes e infraestructura emprendedora |
 | WEConnect International | Entidad / red / empresa | Talento humano |
 | Walmart Centroamérica | Organización | Sector corporativo, mercados y demanda |
 | Walmart – Proveedor Tierra Fértil | Programa / servicio | Sector corporativo, mercados y demanda |
@@ -464,3 +493,14 @@ Cada fila es una ficha única; los dominios múltiples no crean filas duplicadas
 | Zigi (Banco Industrial) | Entidad / red / empresa | Sector corporativo, mercados y demanda; Sector financiero e inversión |
 | Zigi – remesas digitales | Programa / servicio | Sector corporativo, mercados y demanda |
 | Zona Libre Quetzal | Entidad / red / empresa | Sector corporativo, mercados y demanda |
+| CREA Formación – UVG | Programa de formación | Talento humano |
+| Desafío Bi – KEC/UFM | Competencia con formación | Talento humano; Cultura, comunidades y modelos de rol |
+| Servicios de Desarrollo Empresarial – Génesis | Servicio de formación empresarial | Talento humano |
+| ProInnovaCTi | Programa de innovación | Investigación, desarrollo e innovación |
+| EmprendeCTi | Línea de financiamiento y capacidades | Investigación, desarrollo e innovación |
+| TransfiereCTi | Línea de transferencia tecnológica | Investigación, desarrollo e innovación |
+| Premio Nacional de Innovación | Premio de innovación | Investigación, desarrollo e innovación; Cultura, comunidades y modelos de rol |
+| Oficina de Transferencia Tecnológica – UVG | Oficina de transferencia tecnológica | Investigación, desarrollo e innovación |
+| FENACOAC | Federación de cooperativas | Sector financiero e inversión |
+| Instituto Guatemalteco de Turismo (INGUAT) | Institución pública de turismo | Sector corporativo, mercados y demanda |
+| Training Day | Encuentro empresarial | Cultura, comunidades y modelos de rol |

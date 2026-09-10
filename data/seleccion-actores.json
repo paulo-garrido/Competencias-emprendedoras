@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "fecha_revision": "2026-09-09",
   "alcance": "Base de Ciudad de Guatemala, complementada con mapas nacionales y fuentes oficiales. No constituye un censo territorial.",
   "fuentes": [
@@ -137,6 +137,118 @@
       "nombre": "MINEDUC · Productividad y Desarrollo, sexto primaria",
       "url": "https://edu.mineduc.gob.gt/DIGECUR/documents/CNB/CNB_TODOS_LOS_NIVELES/2-PDF_CNB_PRIMARIA/CNB-Nivel-de-Educacion-Primaria-CICLO-II/6.%20CNB_6to_grado.pdf",
       "clase": "oficial",
+      "fecha_consulta": "2026-09-09"
+    },
+    {
+      "id": "R01",
+      "grupo": "R01",
+      "nombre": "KEC · Educación e investigación",
+      "url": "https://kec.ufm.edu/",
+      "clase": "oficial",
+      "fecha_consulta": "2026-09-09"
+    },
+    {
+      "id": "R02",
+      "grupo": "R02",
+      "nombre": "UVG · CREA Formación",
+      "url": "https://crea.app.uvg.edu.gt/programas/crea-formaci%C3%B3n",
+      "clase": "oficial",
+      "fecha_consulta": "2026-09-09"
+    },
+    {
+      "id": "R03",
+      "grupo": "R03",
+      "nombre": "Junior Achievement Guatemala · Formación",
+      "url": "https://jaguatemala.org/",
+      "clase": "oficial",
+      "fecha_consulta": "2026-09-09"
+    },
+    {
+      "id": "R04",
+      "grupo": "R04",
+      "nombre": "KEC · Desafío Bi",
+      "url": "https://kec.ufm.edu/desafio-bi/",
+      "clase": "oficial",
+      "fecha_consulta": "2026-09-09"
+    },
+    {
+      "id": "R05",
+      "grupo": "R05",
+      "nombre": "Génesis Empresarial · Desarrollo empresarial",
+      "url": "https://www.genesisempresarial.org/somos-familia",
+      "clase": "oficial",
+      "fecha_consulta": "2026-09-09"
+    },
+    {
+      "id": "R06",
+      "grupo": "R06",
+      "nombre": "SENACYT · ProInnovaCTi y líneas de financiamiento",
+      "url": "https://fondo.senacyt.gob.gt/index.php/convocatorias-cerradas?catid=2&id=14&view=article",
+      "clase": "oficial",
+      "fecha_consulta": "2026-09-09"
+    },
+    {
+      "id": "R07",
+      "grupo": "R07",
+      "nombre": "SENACYT · Premio Nacional de Innovación",
+      "url": "https://pni.senacyt.gob.gt/",
+      "clase": "oficial",
+      "fecha_consulta": "2026-09-09"
+    },
+    {
+      "id": "R08",
+      "grupo": "R08",
+      "nombre": "UVG · Oficina de Transferencia Tecnológica",
+      "url": "https://www.uvg.edu.gt/ott/",
+      "clase": "oficial",
+      "fecha_consulta": "2026-09-09"
+    },
+    {
+      "id": "R09",
+      "grupo": "R09",
+      "nombre": "MICOOPE · Sistema y FENACOAC",
+      "url": "https://micoope.com.gt/sistema-micoope/",
+      "clase": "oficial",
+      "fecha_consulta": "2026-09-09"
+    },
+    {
+      "id": "R10",
+      "grupo": "R10",
+      "nombre": "MINECO · Acceso a mercados internacionales",
+      "url": "https://guatemalaexporta.mineco.gob.gt/como-exportar/",
+      "clase": "oficial",
+      "fecha_consulta": "2026-09-09"
+    },
+    {
+      "id": "R11",
+      "grupo": "R11",
+      "nombre": "MAGA · Redes de comercialización",
+      "url": "https://www.maga.gob.gt/redes-de-comercializacion-de-agricultura-familiar-trazan-rutas-para-el-desarrollo/",
+      "clase": "oficial",
+      "fecha_consulta": "2026-09-09"
+    },
+    {
+      "id": "R12",
+      "grupo": "R12",
+      "nombre": "INGUAT · Plan de turismo rural y comunitario 2024–2029",
+      "url": "https://biblioteca.inguat.gob.gt/library/images/6/63/Plan_estrat%C3%A9gico_turismo_rural_comunitario_Guatemala_2024-2029.pdf",
+      "clase": "oficial",
+      "fecha_consulta": "2026-09-09"
+    },
+    {
+      "id": "R13",
+      "grupo": "R13",
+      "nombre": "Startup Grind · Capítulo Guatemala City",
+      "url": "https://www.startupgrind.com/guatemala-city/",
+      "clase": "oficial",
+      "fecha_consulta": "2026-09-09"
+    },
+    {
+      "id": "R14",
+      "grupo": "R14",
+      "nombre": "Win.gt · Training Day 2026",
+      "url": "https://win.gt/ecosistema/training-day-la-reunion-empresarial-mas-influyente-de-centroamerica/",
+      "clase": "medio",
       "fecha_consulta": "2026-09-09"
     }
   ],
@@ -549,6 +661,11 @@
           "dominio": "cultura",
           "subdominio": "Redes y comunidades",
           "fuente": "F6"
+        },
+        {
+          "dominio": "cultura",
+          "subdominio": "Eventos y ferias",
+          "fuente": "R13"
         }
       ],
       "evidencias": [
@@ -599,6 +716,12 @@
           ],
           "mencion": "Startup Grind Guatemala City",
           "seccion": "Redes y comunidades"
+        },
+        {
+          "fuente": "R13",
+          "paginas": [],
+          "mencion": "Startup Grind Guatemala City",
+          "seccion": "Eventos y ferias"
         }
       ],
       "vinculos": [],
@@ -645,28 +768,33 @@
         },
         {
           "dominio": "innovacion",
-          "subdominio": "Investigación y prototipado",
-          "fuente": "F2"
+          "subdominio": "Prototipado e infraestructura tecnológica",
+          "fuente": "F2",
+          "subdominio_original": "Investigación y prototipado"
         },
         {
           "dominio": "innovacion",
-          "subdominio": "Investigación y prototipado",
-          "fuente": "F3"
+          "subdominio": "Prototipado e infraestructura tecnológica",
+          "fuente": "F3",
+          "subdominio_original": "Investigación y prototipado"
         },
         {
           "dominio": "innovacion",
-          "subdominio": "Investigación y prototipado",
-          "fuente": "F5"
+          "subdominio": "Prototipado e infraestructura tecnológica",
+          "fuente": "F5",
+          "subdominio_original": "Investigación y prototipado"
         },
         {
           "dominio": "innovacion",
-          "subdominio": "Investigación y prototipado",
-          "fuente": "F6"
+          "subdominio": "Prototipado e infraestructura tecnológica",
+          "fuente": "F6",
+          "subdominio_original": "Investigación y prototipado"
         },
         {
           "dominio": "innovacion",
-          "subdominio": "Investigación y prototipado",
-          "fuente": "F4"
+          "subdominio": "Prototipado e infraestructura tecnológica",
+          "fuente": "F4",
+          "subdominio_original": "Investigación y prototipado"
         }
       ],
       "evidencias": [
@@ -2146,7 +2274,7 @@
       ],
       "tipo": "Programa / servicio",
       "naturaleza": "iniciativa",
-      "descripcion": "Función en el mapeo: Universidades y educación superior; Incubación. La clasificación procede de los apartados citados en las fuentes.",
+      "descripcion": "Centro de la UFM que promueve el aprendizaje del emprendimiento mediante cursos, talleres y conferencias; también realiza investigación aplicada como GEM Guatemala.",
       "nota": "",
       "asignaciones": [
         {
@@ -2158,6 +2286,16 @@
           "dominio": "apoyo",
           "subdominio": "Incubación",
           "fuente": "BASE"
+        },
+        {
+          "dominio": "talento",
+          "subdominio": "Competencias emprendedoras",
+          "fuente": "R01"
+        },
+        {
+          "dominio": "innovacion",
+          "subdominio": "Investigación y conocimiento",
+          "fuente": "R01"
         }
       ],
       "evidencias": [
@@ -2176,6 +2314,18 @@
           ],
           "mencion": "Centro de Emprendimiento Kirzner – UFM",
           "seccion": "Incubación"
+        },
+        {
+          "fuente": "R01",
+          "paginas": [],
+          "mencion": "Kirzner Entrepreneurship Center (KEC) – UFM",
+          "seccion": "Competencias emprendedoras"
+        },
+        {
+          "fuente": "R01",
+          "paginas": [],
+          "mencion": "Kirzner Entrepreneurship Center (KEC) – UFM",
+          "seccion": "Investigación y conocimiento"
         }
       ],
       "vinculos": [
@@ -2187,7 +2337,9 @@
       ],
       "dominios": [
         "educacion",
-        "apoyo"
+        "apoyo",
+        "talento",
+        "innovacion"
       ],
       "dominio": "educacion"
     },
@@ -2234,13 +2386,18 @@
       ],
       "tipo": "Centro / unidad institucional",
       "naturaleza": "unidad",
-      "descripcion": "Función en el mapeo: Universidades y educación superior. La clasificación procede de los apartados citados en las fuentes.",
+      "descripcion": "Función en el mapeo: Universidades y educación superior. La clasificación procede de los apartados citados en las fuentes. CREA Formación desarrolla habilidades emprendedoras y presentación de ideas.",
       "nota": "",
       "asignaciones": [
         {
           "dominio": "educacion",
           "subdominio": "Universidades y educación superior",
           "fuente": "BASE"
+        },
+        {
+          "dominio": "talento",
+          "subdominio": "Competencias emprendedoras",
+          "fuente": "R02"
         }
       ],
       "evidencias": [
@@ -2251,6 +2408,12 @@
           ],
           "mencion": "UVG CREA – Centro de Emprendimiento",
           "seccion": "Universidades y educación superior"
+        },
+        {
+          "fuente": "R02",
+          "paginas": [],
+          "mencion": "UVG CREA – Centro de Emprendimiento",
+          "seccion": "Competencias emprendedoras"
         }
       ],
       "vinculos": [
@@ -2261,7 +2424,8 @@
         }
       ],
       "dominios": [
-        "educacion"
+        "educacion",
+        "talento"
       ],
       "dominio": "educacion"
     },
@@ -2427,23 +2591,27 @@
         },
         {
           "dominio": "innovacion",
-          "subdominio": "Investigación y prototipado",
-          "fuente": "F1"
+          "subdominio": "Investigación y conocimiento",
+          "fuente": "F1",
+          "subdominio_original": "Investigación y prototipado"
         },
         {
           "dominio": "innovacion",
-          "subdominio": "Investigación y prototipado",
-          "fuente": "F2"
+          "subdominio": "Investigación y conocimiento",
+          "fuente": "F2",
+          "subdominio_original": "Investigación y prototipado"
         },
         {
           "dominio": "innovacion",
-          "subdominio": "Investigación y prototipado",
-          "fuente": "F6"
+          "subdominio": "Investigación y conocimiento",
+          "fuente": "F6",
+          "subdominio_original": "Investigación y prototipado"
         },
         {
           "dominio": "innovacion",
-          "subdominio": "Investigación y prototipado",
-          "fuente": "F4"
+          "subdominio": "Investigación y conocimiento",
+          "fuente": "F4",
+          "subdominio_original": "Investigación y prototipado"
         }
       ],
       "evidencias": [
@@ -2782,7 +2950,7 @@
       ],
       "tipo": "Organización",
       "naturaleza": "actor",
-      "descripcion": "Función en el mapeo: Formación y capacitación; Asesoría de negocios; Crédito y préstamos; Microfinanzas. La clasificación procede de los apartados citados en las fuentes.",
+      "descripcion": "Función en el mapeo: Formación y capacitación; Asesoría de negocios; Crédito y préstamos; Microfinanzas. La clasificación procede de los apartados citados en las fuentes. Sus servicios de desarrollo empresarial incluyen capacitación que complementa las microfinanzas.",
       "nota": "",
       "asignaciones": [
         {
@@ -2809,6 +2977,11 @@
           "dominio": "apoyo",
           "subdominio": "Asesoría de negocios",
           "fuente": "F5"
+        },
+        {
+          "dominio": "talento",
+          "subdominio": "Competencias emprendedoras",
+          "fuente": "R05"
         }
       ],
       "evidencias": [
@@ -2851,6 +3024,12 @@
           ],
           "mencion": "Fundación Génesis Empresarial",
           "seccion": "Asesoría de negocios"
+        },
+        {
+          "fuente": "R05",
+          "paginas": [],
+          "mencion": "Fundación Génesis Empresarial",
+          "seccion": "Competencias emprendedoras"
         }
       ],
       "vinculos": [],
@@ -2870,7 +3049,7 @@
       ],
       "tipo": "Organización educativa",
       "naturaleza": "actor",
-      "descripcion": "Los trabajos lo vinculan con habilidades emprendedoras, liderazgo y educación financiera de jóvenes.",
+      "descripcion": "Organización educativa que desarrolla experiencias de emprendimiento, educación financiera y preparación laboral para jóvenes.",
       "nota": "Se conserva el capítulo Guatemala como unidad de la selección.",
       "asignaciones": [
         {
@@ -2897,6 +3076,11 @@
           "dominio": "talento",
           "subdominio": "Formación y capacitación",
           "fuente": "F4"
+        },
+        {
+          "dominio": "talento",
+          "subdominio": "Competencias emprendedoras",
+          "fuente": "R03"
         }
       ],
       "evidencias": [
@@ -2939,6 +3123,12 @@
           ],
           "mencion": "Junior Achievement Guatemala",
           "seccion": "Formación y capacitación"
+        },
+        {
+          "fuente": "R03",
+          "paginas": [],
+          "mencion": "Junior Achievement Guatemala",
+          "seccion": "Competencias emprendedoras"
         }
       ],
       "vinculos": [],
@@ -3661,8 +3851,9 @@
       "asignaciones": [
         {
           "dominio": "innovacion",
-          "subdominio": "Investigación y prototipado",
-          "fuente": "BASE"
+          "subdominio": "Prototipado e infraestructura tecnológica",
+          "fuente": "BASE",
+          "subdominio_original": "Investigación y prototipado"
         }
       ],
       "evidencias": [
@@ -3695,8 +3886,9 @@
       "asignaciones": [
         {
           "dominio": "innovacion",
-          "subdominio": "Investigación y prototipado",
-          "fuente": "BASE"
+          "subdominio": "Prototipado e infraestructura tecnológica",
+          "fuente": "BASE",
+          "subdominio_original": "Investigación y prototipado"
         }
       ],
       "evidencias": [
@@ -3729,8 +3921,9 @@
       "asignaciones": [
         {
           "dominio": "innovacion",
-          "subdominio": "Investigación y prototipado",
-          "fuente": "BASE"
+          "subdominio": "Prototipado e infraestructura tecnológica",
+          "fuente": "BASE",
+          "subdominio_original": "Investigación y prototipado"
         }
       ],
       "evidencias": [
@@ -3763,8 +3956,9 @@
       "asignaciones": [
         {
           "dominio": "innovacion",
-          "subdominio": "Investigación y prototipado",
-          "fuente": "BASE"
+          "subdominio": "Prototipado e infraestructura tecnológica",
+          "fuente": "BASE",
+          "subdominio_original": "Investigación y prototipado"
         }
       ],
       "evidencias": [
@@ -3797,8 +3991,9 @@
       "asignaciones": [
         {
           "dominio": "innovacion",
-          "subdominio": "Investigación y prototipado",
-          "fuente": "BASE"
+          "subdominio": "Prototipado e infraestructura tecnológica",
+          "fuente": "BASE",
+          "subdominio_original": "Investigación y prototipado"
         }
       ],
       "evidencias": [
@@ -3831,8 +4026,9 @@
       "asignaciones": [
         {
           "dominio": "innovacion",
-          "subdominio": "Investigación y prototipado",
-          "fuente": "BASE"
+          "subdominio": "Prototipado e infraestructura tecnológica",
+          "fuente": "BASE",
+          "subdominio_original": "Investigación y prototipado"
         }
       ],
       "evidencias": [
@@ -3865,8 +4061,9 @@
       "asignaciones": [
         {
           "dominio": "innovacion",
-          "subdominio": "Investigación y prototipado",
-          "fuente": "BASE"
+          "subdominio": "Innovación y transferencia tecnológica",
+          "fuente": "BASE",
+          "subdominio_original": "Investigación y prototipado"
         }
       ],
       "evidencias": [
@@ -3900,8 +4097,9 @@
       "asignaciones": [
         {
           "dominio": "innovacion",
-          "subdominio": "Investigación y prototipado",
-          "fuente": "BASE"
+          "subdominio": "Innovación y transferencia tecnológica",
+          "fuente": "BASE",
+          "subdominio_original": "Investigación y prototipado"
         },
         {
           "dominio": "finanzas",
@@ -3948,8 +4146,9 @@
       "asignaciones": [
         {
           "dominio": "innovacion",
-          "subdominio": "Investigación y prototipado",
-          "fuente": "BASE"
+          "subdominio": "Investigación y conocimiento",
+          "fuente": "BASE",
+          "subdominio_original": "Investigación y prototipado"
         }
       ],
       "evidencias": [
@@ -3982,13 +4181,15 @@
       "asignaciones": [
         {
           "dominio": "innovacion",
-          "subdominio": "Investigación y prototipado",
-          "fuente": "BASE"
+          "subdominio": "Prototipado e infraestructura tecnológica",
+          "fuente": "BASE",
+          "subdominio_original": "Investigación y prototipado"
         },
         {
           "dominio": "innovacion",
-          "subdominio": "Investigación y prototipado",
-          "fuente": "F5"
+          "subdominio": "Prototipado e infraestructura tecnológica",
+          "fuente": "F5",
+          "subdominio_original": "Investigación y prototipado"
         }
       ],
       "evidencias": [
@@ -9442,6 +9643,11 @@
           "dominio": "finanzas",
           "subdominio": "Microfinanzas",
           "fuente": "BASE"
+        },
+        {
+          "dominio": "finanzas",
+          "subdominio": "Microfinanzas",
+          "fuente": "R09"
         }
       ],
       "evidencias": [
@@ -9458,6 +9664,12 @@
           "paginas": [
             1
           ],
+          "mencion": "Sistema MICOOPE",
+          "seccion": "Microfinanzas"
+        },
+        {
+          "fuente": "R09",
+          "paginas": [],
           "mencion": "Sistema MICOOPE",
           "seccion": "Microfinanzas"
         }
@@ -10702,28 +10914,33 @@
         },
         {
           "dominio": "innovacion",
-          "subdominio": "Investigación y prototipado",
-          "fuente": "F1"
+          "subdominio": "Innovación y transferencia tecnológica",
+          "fuente": "F1",
+          "subdominio_original": "Investigación y prototipado"
         },
         {
           "dominio": "innovacion",
-          "subdominio": "Investigación y prototipado",
-          "fuente": "F2"
+          "subdominio": "Innovación y transferencia tecnológica",
+          "fuente": "F2",
+          "subdominio_original": "Investigación y prototipado"
         },
         {
           "dominio": "innovacion",
-          "subdominio": "Investigación y prototipado",
-          "fuente": "F3"
+          "subdominio": "Innovación y transferencia tecnológica",
+          "fuente": "F3",
+          "subdominio_original": "Investigación y prototipado"
         },
         {
           "dominio": "innovacion",
-          "subdominio": "Investigación y prototipado",
-          "fuente": "F6"
+          "subdominio": "Innovación y transferencia tecnológica",
+          "fuente": "F6",
+          "subdominio_original": "Investigación y prototipado"
         },
         {
           "dominio": "innovacion",
-          "subdominio": "Investigación y prototipado",
-          "fuente": "F4"
+          "subdominio": "Innovación y transferencia tecnológica",
+          "fuente": "F4",
+          "subdominio_original": "Investigación y prototipado"
         }
       ],
       "evidencias": [
@@ -11961,7 +12178,7 @@
       ],
       "tipo": "Ministerio",
       "naturaleza": "actor",
-      "descripcion": "Apoya la competitividad de las MIPYMES mediante su viceministerio y servicios de desarrollo empresarial y financieros.",
+      "descripcion": "Apoya la competitividad de las MIPYMES mediante su viceministerio y servicios de desarrollo empresarial y financieros. Su función en mercados incluye ferias internacionales y conexiones con compradores.",
       "nota": "Las menciones de la selección inicial pueden referirse a la institución o a sus unidades. Los centros y programas identificados en el mapa base tienen ahora fichas propias.",
       "asignaciones": [
         {
@@ -12003,6 +12220,11 @@
           "dominio": "apoyo",
           "subdominio": "Funciones públicas sectoriales",
           "fuente": "O1"
+        },
+        {
+          "dominio": "mercados",
+          "subdominio": "Funciones públicas sectoriales",
+          "fuente": "R10"
         }
       ],
       "evidencias": [
@@ -12065,12 +12287,19 @@
           "paginas": [],
           "mencion": "Ministerio de Economía (MINECO)",
           "seccion": "Funciones públicas sectoriales"
+        },
+        {
+          "fuente": "R10",
+          "paginas": [],
+          "mencion": "Ministerio de Economía (MINECO)",
+          "seccion": "Funciones públicas sectoriales"
         }
       ],
       "vinculos": [],
       "dominios": [
         "politica",
-        "apoyo"
+        "apoyo",
+        "mercados"
       ],
       "dominio": "politica",
       "palabras_clave": [
@@ -14518,8 +14747,9 @@
       "asignaciones": [
         {
           "dominio": "innovacion",
-          "subdominio": "Investigación y prototipado",
-          "fuente": "F6"
+          "subdominio": "Investigación y conocimiento",
+          "fuente": "F6",
+          "subdominio_original": "Investigación y prototipado"
         }
       ],
       "evidencias": [
@@ -14558,8 +14788,9 @@
       "asignaciones": [
         {
           "dominio": "innovacion",
-          "subdominio": "Investigación y prototipado",
-          "fuente": "F6"
+          "subdominio": "Prototipado e infraestructura tecnológica",
+          "fuente": "F6",
+          "subdominio_original": "Investigación y prototipado"
         }
       ],
       "evidencias": [
@@ -14785,7 +15016,7 @@
       ],
       "tipo": "Ministerio",
       "naturaleza": "actor",
-      "descripcion": "Por medio de la extensión rural y los CADER, ofrece aprendizaje y asesoría para transformar excedentes agrícolas en productos con valor agregado.",
+      "descripcion": "Por medio de la extensión rural y los CADER, ofrece aprendizaje y asesoría para transformar excedentes agrícolas en productos con valor agregado. También impulsa redes de comercialización de agricultura familiar.",
       "nota": "",
       "asignaciones": [
         {
@@ -14797,6 +15028,11 @@
           "dominio": "talento",
           "subdominio": "Funciones públicas sectoriales",
           "fuente": "O5"
+        },
+        {
+          "dominio": "mercados",
+          "subdominio": "Funciones públicas sectoriales",
+          "fuente": "R11"
         }
       ],
       "evidencias": [
@@ -14811,12 +15047,19 @@
           "paginas": [],
           "mencion": "Ministerio de Agricultura, Ganadería y Alimentación (MAGA)",
           "seccion": "Funciones públicas sectoriales"
+        },
+        {
+          "fuente": "R11",
+          "paginas": [],
+          "mencion": "Ministerio de Agricultura, Ganadería y Alimentación (MAGA)",
+          "seccion": "Funciones públicas sectoriales"
         }
       ],
       "vinculos": [],
       "dominios": [
         "politica",
-        "talento"
+        "talento",
+        "mercados"
       ],
       "dominio": "politica",
       "palabras_clave": [
@@ -15146,6 +15389,408 @@
         "educacion"
       ],
       "dominio": "educacion"
+    },
+    {
+      "id": "a-crea-formacion",
+      "nombre": "CREA Formación – UVG",
+      "etiqueta": "CREA Formación – UVG",
+      "alias": [],
+      "tipo": "Programa de formación",
+      "naturaleza": "iniciativa",
+      "descripcion": "Programa extracurricular optativo que desarrolla habilidades emprendedoras mediante metodologías activas, pensamiento de diseño y presentación de ideas de negocio.",
+      "nota": "",
+      "asignaciones": [
+        {
+          "dominio": "talento",
+          "subdominio": "Competencias emprendedoras",
+          "fuente": "R02"
+        }
+      ],
+      "evidencias": [
+        {
+          "fuente": "R02",
+          "paginas": [],
+          "mencion": "CREA Formación – UVG",
+          "seccion": "Competencias emprendedoras"
+        }
+      ],
+      "vinculos": [
+        {
+          "destino": "a-uvg-crea-centro-de-emprendimiento",
+          "tipo": "Vinculado con",
+          "fuente": "R02"
+        }
+      ],
+      "dominios": [
+        "talento"
+      ],
+      "dominio": "talento"
+    },
+    {
+      "id": "a-desafio-bi-kec",
+      "nombre": "Desafío Bi – KEC/UFM",
+      "etiqueta": "Desafío Bi – KEC/UFM",
+      "alias": [],
+      "tipo": "Competencia con formación",
+      "naturaleza": "iniciativa",
+      "descripcion": "Competencia que acompaña negocios con potencial de escalabilidad e incluye talleres y capacitación. La fuente consultada describe la edición 2025.",
+      "nota": "",
+      "asignaciones": [
+        {
+          "dominio": "talento",
+          "subdominio": "Competencias emprendedoras",
+          "fuente": "R04"
+        },
+        {
+          "dominio": "cultura",
+          "subdominio": "Premios y competencias",
+          "fuente": "R04"
+        }
+      ],
+      "evidencias": [
+        {
+          "fuente": "R04",
+          "paginas": [],
+          "mencion": "Desafío Bi – KEC/UFM",
+          "seccion": "Competencias emprendedoras"
+        },
+        {
+          "fuente": "R04",
+          "paginas": [],
+          "mencion": "Desafío Bi – KEC/UFM",
+          "seccion": "Premios y competencias"
+        }
+      ],
+      "vinculos": [
+        {
+          "destino": "a-kirzner-entrepreneurship-center-kec-ufm",
+          "tipo": "Vinculado con",
+          "fuente": "R04"
+        }
+      ],
+      "dominios": [
+        "talento",
+        "cultura"
+      ],
+      "dominio": "talento"
+    },
+    {
+      "id": "a-genesis-servicios-desarrollo-empresarial",
+      "nombre": "Servicios de Desarrollo Empresarial – Génesis",
+      "etiqueta": "Servicios de Desarrollo Empresarial – Génesis",
+      "alias": [],
+      "tipo": "Servicio de formación empresarial",
+      "naturaleza": "iniciativa",
+      "descripcion": "Servicios de desarrollo empresarial y capacitación que complementan la actividad de microfinanzas de Fundación Génesis Empresarial.",
+      "nota": "",
+      "asignaciones": [
+        {
+          "dominio": "talento",
+          "subdominio": "Competencias emprendedoras",
+          "fuente": "R05"
+        }
+      ],
+      "evidencias": [
+        {
+          "fuente": "R05",
+          "paginas": [],
+          "mencion": "Servicios de Desarrollo Empresarial – Génesis",
+          "seccion": "Competencias emprendedoras"
+        }
+      ],
+      "vinculos": [
+        {
+          "destino": "a-fundacion-genesis-empresarial",
+          "tipo": "Vinculado con",
+          "fuente": "R05"
+        }
+      ],
+      "dominios": [
+        "talento"
+      ],
+      "dominio": "talento"
+    },
+    {
+      "id": "a-proinnovacti",
+      "nombre": "ProInnovaCTi",
+      "etiqueta": "ProInnovaCTi",
+      "alias": [],
+      "tipo": "Programa de innovación",
+      "naturaleza": "iniciativa",
+      "descripcion": "Programa de SENACYT para desarrollar o transferir avances tecnológicos; incluye las líneas EmprendeCTi y TransfiereCTi. La referencia corresponde a una convocatoria cerrada.",
+      "nota": "",
+      "asignaciones": [
+        {
+          "dominio": "innovacion",
+          "subdominio": "Innovación y transferencia tecnológica",
+          "fuente": "R06"
+        }
+      ],
+      "evidencias": [
+        {
+          "fuente": "R06",
+          "paginas": [],
+          "mencion": "ProInnovaCTi",
+          "seccion": "Innovación y transferencia tecnológica"
+        }
+      ],
+      "vinculos": [
+        {
+          "destino": "a-senacyt",
+          "tipo": "Vinculado con",
+          "fuente": "R06"
+        }
+      ],
+      "dominios": [
+        "innovacion"
+      ],
+      "dominio": "innovacion"
+    },
+    {
+      "id": "a-emprendecti",
+      "nombre": "EmprendeCTi",
+      "etiqueta": "EmprendeCTi",
+      "alias": [],
+      "tipo": "Línea de financiamiento y capacidades",
+      "naturaleza": "iniciativa",
+      "descripcion": "Línea de ProInnovaCTi para fortalecer capacidades de innovación y emprendimiento en unidades académicas y sectores productivos.",
+      "nota": "",
+      "asignaciones": [
+        {
+          "dominio": "innovacion",
+          "subdominio": "Innovación y transferencia tecnológica",
+          "fuente": "R06"
+        }
+      ],
+      "evidencias": [
+        {
+          "fuente": "R06",
+          "paginas": [],
+          "mencion": "EmprendeCTi",
+          "seccion": "Innovación y transferencia tecnológica"
+        }
+      ],
+      "vinculos": [
+        {
+          "destino": "a-proinnovacti",
+          "tipo": "Vinculado con",
+          "fuente": "R06"
+        }
+      ],
+      "dominios": [
+        "innovacion"
+      ],
+      "dominio": "innovacion"
+    },
+    {
+      "id": "a-transfierecti",
+      "nombre": "TransfiereCTi",
+      "etiqueta": "TransfiereCTi",
+      "alias": [],
+      "tipo": "Línea de transferencia tecnológica",
+      "naturaleza": "iniciativa",
+      "descripcion": "Línea de ProInnovaCTi que apoya proyectos de transferencia y crecimiento de empresas de base científico-tecnológica.",
+      "nota": "",
+      "asignaciones": [
+        {
+          "dominio": "innovacion",
+          "subdominio": "Innovación y transferencia tecnológica",
+          "fuente": "R06"
+        }
+      ],
+      "evidencias": [
+        {
+          "fuente": "R06",
+          "paginas": [],
+          "mencion": "TransfiereCTi",
+          "seccion": "Innovación y transferencia tecnológica"
+        }
+      ],
+      "vinculos": [
+        {
+          "destino": "a-proinnovacti",
+          "tipo": "Vinculado con",
+          "fuente": "R06"
+        }
+      ],
+      "dominios": [
+        "innovacion"
+      ],
+      "dominio": "innovacion"
+    },
+    {
+      "id": "a-premio-nacional-innovacion",
+      "nombre": "Premio Nacional de Innovación",
+      "etiqueta": "Premio Nacional de Innovación",
+      "alias": [],
+      "tipo": "Premio de innovación",
+      "naturaleza": "iniciativa",
+      "descripcion": "Reconocimiento de SENACYT a soluciones innovadoras, emprendimientos e iniciativas de distintos sectores.",
+      "nota": "",
+      "asignaciones": [
+        {
+          "dominio": "innovacion",
+          "subdominio": "Innovación y transferencia tecnológica",
+          "fuente": "R07"
+        },
+        {
+          "dominio": "cultura",
+          "subdominio": "Premios y competencias",
+          "fuente": "R07"
+        }
+      ],
+      "evidencias": [
+        {
+          "fuente": "R07",
+          "paginas": [],
+          "mencion": "Premio Nacional de Innovación",
+          "seccion": "Innovación y transferencia tecnológica"
+        },
+        {
+          "fuente": "R07",
+          "paginas": [],
+          "mencion": "Premio Nacional de Innovación",
+          "seccion": "Premios y competencias"
+        }
+      ],
+      "vinculos": [
+        {
+          "destino": "a-senacyt",
+          "tipo": "Vinculado con",
+          "fuente": "R07"
+        }
+      ],
+      "dominios": [
+        "innovacion",
+        "cultura"
+      ],
+      "dominio": "innovacion"
+    },
+    {
+      "id": "a-ott-uvg",
+      "nombre": "Oficina de Transferencia Tecnológica – UVG",
+      "etiqueta": "Oficina de Transferencia Tecnológica – UVG",
+      "alias": [],
+      "tipo": "Oficina de transferencia tecnológica",
+      "naturaleza": "unidad",
+      "descripcion": "Unidad que conecta innovaciones científicas y tecnológicas de UVG con la sociedad mediante apoyo a startups, innovación empresarial y propiedad intelectual.",
+      "nota": "",
+      "asignaciones": [
+        {
+          "dominio": "innovacion",
+          "subdominio": "Innovación y transferencia tecnológica",
+          "fuente": "R08"
+        }
+      ],
+      "evidencias": [
+        {
+          "fuente": "R08",
+          "paginas": [],
+          "mencion": "Oficina de Transferencia Tecnológica – UVG",
+          "seccion": "Innovación y transferencia tecnológica"
+        }
+      ],
+      "vinculos": [],
+      "dominios": [
+        "innovacion"
+      ],
+      "dominio": "innovacion"
+    },
+    {
+      "id": "a-fenacoac",
+      "nombre": "FENACOAC",
+      "etiqueta": "FENACOAC",
+      "alias": [],
+      "tipo": "Federación de cooperativas",
+      "naturaleza": "actor",
+      "descripcion": "Federación que presta apoyo al Sistema MICOOPE y desarrolla intermediación financiera como caja central de liquidez. Se distingue del sistema y de sus cooperativas integrantes.",
+      "nota": "",
+      "asignaciones": [
+        {
+          "dominio": "finanzas",
+          "subdominio": "Microfinanzas",
+          "fuente": "R09"
+        }
+      ],
+      "evidencias": [
+        {
+          "fuente": "R09",
+          "paginas": [],
+          "mencion": "FENACOAC",
+          "seccion": "Microfinanzas"
+        }
+      ],
+      "vinculos": [
+        {
+          "destino": "a-sistema-micoope",
+          "tipo": "Vinculado con",
+          "fuente": "R09"
+        }
+      ],
+      "dominios": [
+        "finanzas"
+      ],
+      "dominio": "finanzas"
+    },
+    {
+      "id": "a-inguat",
+      "nombre": "Instituto Guatemalteco de Turismo (INGUAT)",
+      "etiqueta": "Instituto Guatemalteco de Turismo (INGUAT)",
+      "alias": [],
+      "tipo": "Institución pública de turismo",
+      "naturaleza": "actor",
+      "descripcion": "Institución pública con un plan de turismo rural y comunitario que incluye formalización de mipymes y fortalecimiento del ecosistema emprendedor turístico.",
+      "nota": "",
+      "asignaciones": [
+        {
+          "dominio": "mercados",
+          "subdominio": "Funciones públicas sectoriales",
+          "fuente": "R12"
+        }
+      ],
+      "evidencias": [
+        {
+          "fuente": "R12",
+          "paginas": [],
+          "mencion": "Instituto Guatemalteco de Turismo (INGUAT)",
+          "seccion": "Funciones públicas sectoriales"
+        }
+      ],
+      "vinculos": [],
+      "dominios": [
+        "mercados"
+      ],
+      "dominio": "mercados"
+    },
+    {
+      "id": "a-training-day",
+      "nombre": "Training Day",
+      "etiqueta": "Training Day",
+      "alias": [],
+      "tipo": "Encuentro empresarial",
+      "naturaleza": "iniciativa",
+      "descripcion": "Encuentro empresarial de liderazgo, crecimiento y conexiones entre emprendedores, empresarios e inversionistas. Win.gt anunció su edición 2026 para el 8 de septiembre; esta referencia no certifica su realización.",
+      "nota": "",
+      "asignaciones": [
+        {
+          "dominio": "cultura",
+          "subdominio": "Eventos y ferias",
+          "fuente": "R14"
+        }
+      ],
+      "evidencias": [
+        {
+          "fuente": "R14",
+          "paginas": [],
+          "mencion": "Training Day",
+          "seccion": "Eventos y ferias"
+        }
+      ],
+      "vinculos": [],
+      "dominios": [
+        "cultura"
+      ],
+      "dominio": "cultura"
     }
   ],
   "cobertura_base": [
@@ -17326,5 +17971,9 @@
       "sha256": "80f5803fca838a1d65e5852939b40fda77003cf6ca9db98ca3b26158342ace90",
       "duplicado_de": null
     }
-  ]
+  ],
+  "revision_comentarios": {
+    "documento": "comentarios para mejorar mapa.docx",
+    "criterio": "Asignaciones temáticas revisadas con fuentes. Se preservan las menciones originales y los identificadores existentes. No se incorporan entidades solo para equilibrar cantidades."
+  }
 }

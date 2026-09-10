@@ -19,7 +19,9 @@ blocks=[]; toc=[]; i=0; inventory=False
 while i<len(lines):
     line=lines[i]
     if not line.strip() or line.startswith('# '): i+=1; continue
-    if line.startswith('## '):
+    if line.startswith('### '):
+        blocks.append('<h3>'+inline(line[4:])+'</h3>');i+=1
+    elif line.startswith('## '):
         title=line[3:]; key=slug(title)
         if title=='Inventario de registros':
             blocks.append(f'<details id="{key}"><summary>Consultar el inventario completo de registros</summary>'); inventory=True

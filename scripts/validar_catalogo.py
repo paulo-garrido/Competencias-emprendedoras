@@ -26,7 +26,7 @@ lookup={a['id']:a for a in d['actores']}
 for c in d['cobertura_base']:
  a=lookup[c['id']]
  assert any(e['fuente']=='BASE' and e['mencion']==c['entrada'] and e['seccion']==c['subdominio'] for e in a['evidencias']),c
- assert any(e['fuente']=='BASE' and e['dominio']==c['dominio'] and e['subdominio']==c['subdominio'] for e in a['asignaciones']),c
+ assert any(e['fuente']=='BASE' and e['dominio']==c['dominio'] and e.get('subdominio_original',e['subdominio'])==c['subdominio'] for e in a['asignaciones']),c
 ministries=[a for a in d['actores'] if a['tipo']=='Ministerio']
 assert len(ministries)==7
 assert all('politica' in a['dominios'] for a in ministries)
@@ -36,3 +36,11 @@ assert set(cnb['dominios'])=={'educacion','politica','talento'}
 assert any('MINEDUC' in lookup[v['destino']]['nombre'] for v in cnb['vinculos'])
 print('Integridad correcta:',len(ids),'registros, 355 entradas base trazables, 7 ministerios y CNB vinculado.')
 print('Naturalezas:',dict(Counter(a['naturaleza'] for a in d['actores'])))
+
+innovation={v['subdominio'] for a in d['actores'] for v in a['asignaciones'] if v['dominio']=='innovacion'}
+assert innovation=={'Investigación y conocimiento','Prototipado e infraestructura tecnológica','Innovación y transferencia tecnológica'}
+competencies=[a for a in d['actores'] if any(v['dominio']=='talento' and v['subdominio']=='Competencias emprendedoras' for v in a['asignaciones'])]
+assert len(competencies)==8
+assert lookup['a-fenacoac']['id']!=lookup['a-sistema-micoope']['id']
+assert lookup['a-training-day']['naturaleza']=='iniciativa'
+print('Revisión correcta: tres subdominios de innovación, ocho registros en competencias y entidades sin duplicar.')

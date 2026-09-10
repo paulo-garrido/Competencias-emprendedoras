@@ -15,7 +15,7 @@ Abre http://127.0.0.1:8000 y detén el servidor con Ctrl+C. No abras `index.html
 ## Datos e interacción
 
 - 8 dominios estables y un centro fijo respecto de la red.
-- 359 registros únicos: 175 actores, 27 centros/unidades, 114 programas/eventos, 34 instrumentos/trámites y 9 agrupaciones/referencias compuestas.
+- 370 registros únicos: 177 actores, 28 centros/unidades, 122 programas/eventos, 34 instrumentos/trámites y 9 agrupaciones/referencias compuestas.
 - Las 355 entradas del mapa base conservan su evidencia y clasificación original. No equivalen a 355 instituciones distintas.
 - 7 ministerios con fuentes oficiales: MINECO, MINEDUC, MINTRAB, MAGA, MINFIN, MARN y MSPAS.
 - CNB y dos áreas curriculares con fichas propias, diferenciados de las instituciones y vinculados con MINEDUC.
@@ -87,3 +87,5 @@ El sitio está preparado para publicarse sin compilación. El archivo `.nojekyll
 Las rutas son relativas y funcionan dentro de la subcarpeta del repositorio. No se requieren contraseñas ni tokens dentro del código. Repositorio: https://github.com/paulo-garrido/Competencias-emprendedoras. GitHub Pages está configurado desde `main`, carpeta raíz. Sitio: https://paulo-garrido.github.io/Competencias-emprendedoras/. Las actualizaciones se publican al subir cambios a `main`.
 
 Referencia: [Crear un sitio de GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site).
+
+La revisión del Word amplía competencias emprendedoras y organiza innovación en tres subdominios; el detalle de decisiones y fuentes está en la metodología. Las categorías originales se conservan en las evidencias.

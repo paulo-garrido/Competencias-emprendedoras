@@ -1,10 +1,10 @@
 id,nombre,tipo,orden,color,descripcion
-ecosistema,Ecosistema Emprendedor de Guatemala,centro,0,#173f56,"Explora ocho dominios y 359 registros de actores, centros, programas e instrumentos. Selecciona un dominio o busca en el catálogo completo."
+ecosistema,Ecosistema Emprendedor de Guatemala,centro,0,#173f56,"Explora ocho dominios y 370 registros de actores, centros, programas e instrumentos. Selecciona un dominio o busca en el catálogo completo."
 politica,"Política, regulación y gobernanza",dominio,1,#52749b,"Condiciones institucionales que enmarcan el emprendimiento. Incluye: políticas públicas, regulación y coordinación entre instituciones."
 educacion,Sistema educativo,dominio,2,#367f94,"Formación y aprendizaje vinculados al emprendimiento. Incluye: educación formal, formación técnica y aprendizaje continuo."
 talento,Talento humano,dominio,3,#368176,"Capacidades de las personas para iniciar y desarrollar proyectos. Incluye: habilidades, experiencia y movilidad del talento."
-innovacion,"Investigación, desarrollo e innovación",dominio,4,#77853e,"Generación y aplicación de conocimiento. Incluye: investigación, desarrollo tecnológico y transferencia de conocimiento."
-apoyo,"Servicios de apoyo, redes e infraestructura",dominio,5,#a27535,"Recursos que acompañan a los emprendimientos. Incluye: mentoría, incubación, redes y espacios de trabajo."
+innovacion,"Investigación, desarrollo e innovación",dominio,4,#77853e,"Generación de conocimiento, prototipado e infraestructura tecnológica, e innovación y transferencia de tecnología hacia la sociedad y las empresas."
+apoyo,"Servicios de apoyo, redes e infraestructura emprendedora",dominio,5,#a27535,"Recursos que acompañan a los emprendimientos. Incluye: mentoría, incubación, redes y espacios de trabajo."
 finanzas,Sector financiero e inversión,dominio,6,#a06866,"Recursos financieros para distintas etapas del emprendimiento. Incluye: crédito, inversión y mecanismos de financiamiento."
 mercados,"Sector corporativo, mercados y demanda",dominio,7,#8c699b,"Vínculos con empresas y oportunidades de mercado. Incluye: cadenas de valor, compras y acceso a clientes."
 cultura,"Cultura, comunidades y modelos de rol",dominio,8,#607998,"Prácticas y referentes que influyen en emprender. Incluye: comunidades, experiencias compartidas y modelos de rol."

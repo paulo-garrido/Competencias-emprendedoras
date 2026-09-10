@@ -98,7 +98,8 @@
     element('actor-note').textContent = actor.nota;
     element('actor-note').hidden = !actor.nota;
     const officialCount = new Set(actor.evidencias.filter(e => state.sources.find(s => s.id === e.fuente).clase === 'oficial').map(e => e.fuente)).size;
-    element('actor-frequency').textContent = `${sourceGroups(actor)} mapas citados${officialCount ? ` · ${officialCount} fuentes oficiales consultadas` : ''}. Consulta el origen y el apartado de cada mención.`;
+    const mediaCount = new Set(actor.evidencias.filter(e => state.sources.find(s => s.id === e.fuente).clase === 'medio').map(e => e.fuente)).size;
+    element('actor-frequency').textContent = `${sourceGroups(actor)} mapas citados${officialCount ? ` · ${officialCount} fuentes oficiales consultadas` : ''}${mediaCount ? ` · ${mediaCount} fuentes periodísticas` : ''}. Consulta el origen y el apartado de cada mención.`;
     const assignments = [...new Map(actor.asignaciones.map(a => [a.dominio+'|'+a.subdominio,a])).values()];
     d3.select('#actor-domains').selectAll('button').data(assignments).join('button')
       .attr('class','domain-chip').attr('type','button')
