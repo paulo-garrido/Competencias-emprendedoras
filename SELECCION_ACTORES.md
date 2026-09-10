@@ -1,10 +1,10 @@
 # Mapeo ampliado del ecosistema de emprendimiento de Guatemala
 
-## Cambio de alcance
+## Base documental y alcance
 
-La selección anterior de 24 registros imponía un límite de tres por dominio. Esta versión elimina ese criterio y toma como base **Ecosistema de Emprendimiento de la Ciudad de Guatemala (PDF vectorial)**, el mapa indicado por la profesora.
+El inventario toma como base el documento **Ecosistema de Emprendimiento de la Ciudad de Guatemala (PDF vectorial)** y lo complementa con otros mapas del ecosistema y fuentes institucionales.
 
-Se incorporaron **las 355 entradas de sus 37 subdominios**, sin excluir entradas por falta de recurrencia. Las menciones repetidas se reúnen cuando identifican claramente el mismo registro; cada asignación temática conserva la sección y el texto de origen. Se sumaron los registros previos, aportes de los otros mapas y fuentes oficiales sobre ministerios y currículo.
+Se incorporaron **las 355 entradas de sus 37 subdominios**, sin excluir entradas por falta de recurrencia. Las menciones repetidas se reúnen cuando identifican claramente el mismo registro; cada asignación temática conserva la sección y el texto de origen. La información se complementa con aportes de otros mapas y fuentes oficiales sobre ministerios y currículo.
 
 El resultado contiene **370 registros únicos del catálogo**: 177 actores (entidades, redes y empresas), 28 centros o unidades, 122 programas o eventos, 34 instrumentos o trámites y 9 agrupaciones o referencias compuestas. Los 370 registros no equivalen a 370 instituciones.
 
